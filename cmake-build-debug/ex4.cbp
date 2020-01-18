@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ex4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex4">
+				<Option output="/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/ex4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex4/fast">
+				<Option output="/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/ex4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/main.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/CacheManager.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/CacheManager.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/ClientHandler.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/ClientHandler.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/FileCacheManager.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/FileCacheManager.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/MySerialServer.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/MySerialServer.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/MyTestClientHandler.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/MyTestClientHandler.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/Problem.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/Problem.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/Server.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/Server.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/Solution.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/Solution.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/Solver.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/Solver.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
