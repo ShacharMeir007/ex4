@@ -9,7 +9,8 @@
 #include "Server.h"
 namespace server_side {
 class ClientHandler {
-  virtual void handle(std::ifstream, std::ofstream) = 0;
+ public:
+  virtual void handle(int client,char *, char*) = 0;
 };
 }
 #endif //EX4_SERVER_SIDE_CLIENTHANDLER_H_
