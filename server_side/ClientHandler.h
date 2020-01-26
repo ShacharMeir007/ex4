@@ -7,8 +7,10 @@
 
 #include <fstream>
 #include "Server.h"
+#include "CacheManager.h"
 namespace server_side {
 class ClientHandler {
+  CacheManager cache;
  public:
   virtual void handle(int client,char *, char*) = 0;
 };

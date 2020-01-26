@@ -10,10 +10,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/shacharmeir/CLionProjects/ex4/server_side/FileCacheManager.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/server_side/FileCacheManager.cpp.o"
   "/Users/shacharmeir/CLionProjects/ex4/server_side/MySerialServer.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/server_side/MySerialServer.cpp.o"
   "/Users/shacharmeir/CLionProjects/ex4/server_side/MyTestClientHandler.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o"
-  "/Users/shacharmeir/CLionProjects/ex4/server_side/Problem.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/server_side/Problem.cpp.o"
   "/Users/shacharmeir/CLionProjects/ex4/server_side/Server.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/server_side/Server.cpp.o"
-  "/Users/shacharmeir/CLionProjects/ex4/server_side/Solution.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/server_side/Solution.cpp.o"
   "/Users/shacharmeir/CLionProjects/ex4/server_side/Solver.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/server_side/Solver.cpp.o"
+  "/Users/shacharmeir/CLionProjects/ex4/server_side/StringReverser.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/server_side/StringReverser.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

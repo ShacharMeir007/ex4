@@ -285,33 +285,6 @@ server_side/MyTestClientHandler.cpp.s:
 	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.s
 .PHONY : server_side/MyTestClientHandler.cpp.s
 
-server_side/Problem.o: server_side/Problem.cpp.o
-
-.PHONY : server_side/Problem.o
-
-# target to build an object file
-server_side/Problem.cpp.o:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/server_side/Problem.cpp.o
-.PHONY : server_side/Problem.cpp.o
-
-server_side/Problem.i: server_side/Problem.cpp.i
-
-.PHONY : server_side/Problem.i
-
-# target to preprocess a source file
-server_side/Problem.cpp.i:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/server_side/Problem.cpp.i
-.PHONY : server_side/Problem.cpp.i
-
-server_side/Problem.s: server_side/Problem.cpp.s
-
-.PHONY : server_side/Problem.s
-
-# target to generate assembly for a file
-server_side/Problem.cpp.s:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/server_side/Problem.cpp.s
-.PHONY : server_side/Problem.cpp.s
-
 server_side/Server.o: server_side/Server.cpp.o
 
 .PHONY : server_side/Server.o
@@ -338,33 +311,6 @@ server_side/Server.s: server_side/Server.cpp.s
 server_side/Server.cpp.s:
 	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/server_side/Server.cpp.s
 .PHONY : server_side/Server.cpp.s
-
-server_side/Solution.o: server_side/Solution.cpp.o
-
-.PHONY : server_side/Solution.o
-
-# target to build an object file
-server_side/Solution.cpp.o:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/server_side/Solution.cpp.o
-.PHONY : server_side/Solution.cpp.o
-
-server_side/Solution.i: server_side/Solution.cpp.i
-
-.PHONY : server_side/Solution.i
-
-# target to preprocess a source file
-server_side/Solution.cpp.i:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/server_side/Solution.cpp.i
-.PHONY : server_side/Solution.cpp.i
-
-server_side/Solution.s: server_side/Solution.cpp.s
-
-.PHONY : server_side/Solution.s
-
-# target to generate assembly for a file
-server_side/Solution.cpp.s:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/server_side/Solution.cpp.s
-.PHONY : server_side/Solution.cpp.s
 
 server_side/Solver.o: server_side/Solver.cpp.o
 
@@ -393,6 +339,33 @@ server_side/Solver.cpp.s:
 	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/server_side/Solver.cpp.s
 .PHONY : server_side/Solver.cpp.s
 
+server_side/StringReverser.o: server_side/StringReverser.cpp.o
+
+.PHONY : server_side/StringReverser.o
+
+# target to build an object file
+server_side/StringReverser.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/server_side/StringReverser.cpp.o
+.PHONY : server_side/StringReverser.cpp.o
+
+server_side/StringReverser.i: server_side/StringReverser.cpp.i
+
+.PHONY : server_side/StringReverser.i
+
+# target to preprocess a source file
+server_side/StringReverser.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/server_side/StringReverser.cpp.i
+.PHONY : server_side/StringReverser.cpp.i
+
+server_side/StringReverser.s: server_side/StringReverser.cpp.s
+
+.PHONY : server_side/StringReverser.s
+
+# target to generate assembly for a file
+server_side/StringReverser.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/server_side/StringReverser.cpp.s
+.PHONY : server_side/StringReverser.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -420,18 +393,15 @@ help:
 	@echo "... server_side/MyTestClientHandler.o"
 	@echo "... server_side/MyTestClientHandler.i"
 	@echo "... server_side/MyTestClientHandler.s"
-	@echo "... server_side/Problem.o"
-	@echo "... server_side/Problem.i"
-	@echo "... server_side/Problem.s"
 	@echo "... server_side/Server.o"
 	@echo "... server_side/Server.i"
 	@echo "... server_side/Server.s"
-	@echo "... server_side/Solution.o"
-	@echo "... server_side/Solution.i"
-	@echo "... server_side/Solution.s"
 	@echo "... server_side/Solver.o"
 	@echo "... server_side/Solver.i"
 	@echo "... server_side/Solver.s"
+	@echo "... server_side/StringReverser.o"
+	@echo "... server_side/StringReverser.i"
+	@echo "... server_side/StringReverser.s"
 .PHONY : help
 
 

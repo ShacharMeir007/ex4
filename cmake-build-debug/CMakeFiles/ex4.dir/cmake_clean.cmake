@@ -5,10 +5,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/ex4.dir/server_side/FileCacheManager.cpp.o"
   "CMakeFiles/ex4.dir/server_side/MySerialServer.cpp.o"
   "CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o"
-  "CMakeFiles/ex4.dir/server_side/Problem.cpp.o"
   "CMakeFiles/ex4.dir/server_side/Server.cpp.o"
-  "CMakeFiles/ex4.dir/server_side/Solution.cpp.o"
   "CMakeFiles/ex4.dir/server_side/Solver.cpp.o"
+  "CMakeFiles/ex4.dir/server_side/StringReverser.cpp.o"
   "ex4"
   "ex4.pdb"
 )

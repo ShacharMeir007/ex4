@@ -4,11 +4,10 @@
 
 #ifndef EX4_SERVER_SIDE_SOLVER_H_
 #define EX4_SERVER_SIDE_SOLVER_H_
-#include "Solution.h"
-#include "Problem.h"
 namespace server_side {
-class Solver {
-  virtual Solution solve(Problem problem) = 0;
+template<typename P, typename S>
+class Solver{
+  virtual S solve(P problem) = 0;
 };
 }
 #endif //EX4_SERVER_SIDE_SOLVER_H_

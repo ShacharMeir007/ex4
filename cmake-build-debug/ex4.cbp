@@ -113,28 +113,22 @@
 		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/MyTestClientHandler.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/Problem.cpp">
-			<Option target="ex4"/>
-		</Unit>
-		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/Problem.h">
-			<Option target="ex4"/>
-		</Unit>
 		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/Server.cpp">
 			<Option target="ex4"/>
 		</Unit>
 		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/Server.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/Solution.cpp">
-			<Option target="ex4"/>
-		</Unit>
-		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/Solution.h">
-			<Option target="ex4"/>
-		</Unit>
 		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/Solver.cpp">
 			<Option target="ex4"/>
 		</Unit>
 		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/Solver.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/StringReverser.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/StringReverser.h">
 			<Option target="ex4"/>
 		</Unit>
 		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/CMakeLists.txt">
