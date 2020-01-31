@@ -14,6 +14,10 @@ class State {
  public:
   explicit State(T state);
   bool operator==(const State & s);
+  double GetCost() const;
+  void SetCost(double c);
+  State *GetCameFrom() const;
+  void SetCameFrom(State *came_from);
 };
 
 #endif //EX4_ALGORITHMS_STATE_H_
