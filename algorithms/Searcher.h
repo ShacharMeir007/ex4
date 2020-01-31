@@ -12,7 +12,7 @@
 
 template<typename T>
 class Searcher {
-  virtual Solution<std::list<State<T>>> search(Searchable<State<T>> searchable) = 0;
+  virtual Solution<std::list<State<T>>> search(Searchable<T> searchable) = 0;
   int getNumberOfNodesEvaluated() = 0;
 };
 
