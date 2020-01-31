@@ -8,10 +8,11 @@
 #include <list>
 #include "State.h"
 #include "Solution.h"
+#include "Searchable.h"
 
 template<typename T>
 class Searcher {
-  virtual Solution<std::list<State<T>>> search() = 0;
+  virtual Solution<std::list<State<T>>> search(Searchable<State<T>> searchable) = 0;
   int getNumberOfNodesEvaluated() = 0;
 };
 
