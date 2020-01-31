@@ -7,10 +7,11 @@
 
 #include <list>
 #include "State.h"
+#include "Solution.h"
 
 template<typename T>
 class Searcher {
-  virtual std::list<State<T>> search() = 0;
+  virtual Solution<std::list<State<T>>> search() = 0;
   int getNumberOfNodesEvaluated() = 0;
 };
 
