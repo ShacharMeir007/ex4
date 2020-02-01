@@ -9,13 +9,19 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <unistd.h>
+#include <thread>
 namespace server_side {
-
 class MySerialServer : public Server {
-  void open(int port,ClientHandler c) override;
+ private:
+  bool close_ = false;
+  std::thread* thread_ = nullptr;
+ public:
+  void run(int port,ClientHandler* c);
+  void open(int port,ClientHandler* c) override;
   void stop() override;
 
 };
+
 
 #endif //EX4_SERVER_SIDE_MYSERIALSERVER_H_
 }

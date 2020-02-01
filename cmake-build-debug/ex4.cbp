@@ -80,6 +80,48 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Solutions/StringSolution.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Solutions/StringSolution.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/BestFirstSearch.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/BestFirstSearch.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/Heap.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/Heap.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/HeapSearcher.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/HeapSearcher.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/Searchable.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/Searcher.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/Solution.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/Solution.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/State.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/State.h">
+			<Option target="ex4"/>
+		</Unit>
 		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/main.cpp">
 			<Option target="ex4"/>
 		</Unit>
@@ -99,6 +141,18 @@
 			<Option target="ex4"/>
 		</Unit>
 		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/FileCacheManager.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/Main.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/Main.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/MyParallelServer.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/MyParallelServer.h">
 			<Option target="ex4"/>
 		</Unit>
 		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/server_side/MySerialServer.cpp">
