@@ -7,12 +7,25 @@
 
 template<typename T>
 class Solution {
- protected:
   T solution;
 
  public:
   explicit Solution(T solution);
-  virtual T getSolution();
+  Solution();
+  T getSolution();
 };
+template<typename T>
+Solution<T>::Solution(T solution) {
+  this->solution = solution;
+}
+
+template<typename T>
+Solution<T>::Solution() {}
+
+template<typename T>
+T Solution<T>::getSolution() {
+  return this->solution;
+}
+
 
 #endif //EX4_ALGORITHMS_SOLUTION_H_
