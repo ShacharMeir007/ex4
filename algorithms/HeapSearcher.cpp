@@ -41,3 +41,14 @@ template<typename T>
 void HeapSearcher<T>::updateOpenList() {
   heap.update();
 }
+
+template<typename T>
+Solution<std::list<State<T>>> HeapSearcher<T>::backTrace(State<T> *goal) {
+  std::list<State<T>> list;
+  while (goal != nullptr) {
+    list.push_front(goal);
+    goal = goal->GetCameFrom();
+  }
+  return Solution<T>(list);
+}
+

@@ -33,3 +33,13 @@ template<typename T>
 void State<T>::SetCameFrom(State *came_from) {
   cameFrom = came_from;
 }
+
+template<typename T>
+bool State<T>::operator>(const State &s) {
+  return this->cost > s.GetCost();
+}
+
+template<typename T>
+bool State<T>::operator<(const State &s) {
+  return this->cost < s.GetCost();
+}

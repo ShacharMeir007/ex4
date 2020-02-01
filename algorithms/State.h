@@ -9,11 +9,13 @@ template<typename T>
 class State {
   T state;
   double cost = 0;
-  State *cameFrom;
+  State *cameFrom = nullptr;
 
  public:
   explicit State(T state);
   bool operator==(const State & s);
+  bool operator>(const State & s);
+  bool operator<(const State & s);
   double GetCost() const;
   void SetCost(double c);
   State *GetCameFrom() const;

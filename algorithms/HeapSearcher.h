@@ -23,6 +23,7 @@ class HeapSearcher : public Searcher<T> {
   bool openListContains(State<T> element);
   State<T> &getElement(State<T> element);
   void updateOpenList();
+  Solution<std::list<State<T>>> backTrace(State<T> *goal);
 };
 
 #endif //EX4_ALGORITHMS_HEAPSEARCHER_H_

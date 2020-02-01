@@ -39,3 +39,4 @@ Solution<std::list<State<T>>> BestFirstSearch<T>::search(Searchable<T> searchabl
     }
   }
 }
+

@@ -12,7 +12,6 @@
 template<typename T>
 class BestFirstSearch : public HeapSearcher<T>{
   Solution<std::list<State<T>>> search(Searchable<T> searchable) override;
-  Solution<std::list<State<T>>> backTrace(State<T>);
 };
 
 #endif //EX4_ALGORITHMS_BESTFIRSTSEARCH_H_
