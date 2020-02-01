@@ -80,46 +80,52 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Problems/Problem.cpp">
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/AStar.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Problems/Problem.h">
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/AStar.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/BestFirstSearch.cpp">
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/BestFirstSearch.h">
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/Heap.cpp">
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Heap.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/Heap.h">
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Heap.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/HeapSearcher.cpp">
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/HeapSearcher.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/HeapSearcher.h">
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/HeapSearcher.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/Searchable.h">
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Matrix.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/Searcher.h">
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Matrix.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/Solution.cpp">
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Searchable.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/Solution.h">
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Searcher.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/State.cpp">
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Solution.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/State.h">
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Solution.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/State.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/State.h">
 			<Option target="ex4"/>
 		</Unit>
 		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/main.cpp">

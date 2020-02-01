@@ -4,12 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/shacharmeir/CLionProjects/ex4/Problems/Problem.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/Problems/Problem.cpp.o"
-  "/Users/shacharmeir/CLionProjects/ex4/algorithms/BestFirstSearch.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/algorithms/BestFirstSearch.cpp.o"
-  "/Users/shacharmeir/CLionProjects/ex4/algorithms/Heap.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/algorithms/Heap.cpp.o"
-  "/Users/shacharmeir/CLionProjects/ex4/algorithms/HeapSearcher.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/algorithms/HeapSearcher.cpp.o"
-  "/Users/shacharmeir/CLionProjects/ex4/algorithms/Solution.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/algorithms/Solution.cpp.o"
-  "/Users/shacharmeir/CLionProjects/ex4/algorithms/State.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/algorithms/State.cpp.o"
+  "/Users/shacharmeir/CLionProjects/ex4/AStar.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/AStar.cpp.o"
+  "/Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/BestFirstSearch.cpp.o"
+  "/Users/shacharmeir/CLionProjects/ex4/Heap.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/Heap.cpp.o"
+  "/Users/shacharmeir/CLionProjects/ex4/HeapSearcher.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/HeapSearcher.cpp.o"
+  "/Users/shacharmeir/CLionProjects/ex4/Matrix.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/Matrix.cpp.o"
+  "/Users/shacharmeir/CLionProjects/ex4/Solution.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/Solution.cpp.o"
+  "/Users/shacharmeir/CLionProjects/ex4/State.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/State.cpp.o"
   "/Users/shacharmeir/CLionProjects/ex4/main.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/main.cpp.o"
   "/Users/shacharmeir/CLionProjects/ex4/server_side/CacheManager.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/server_side/CacheManager.cpp.o"
   "/Users/shacharmeir/CLionProjects/ex4/server_side/ClientHandler.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/server_side/ClientHandler.cpp.o"

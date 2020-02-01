@@ -123,167 +123,194 @@ ex4/fast:
 	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/build
 .PHONY : ex4/fast
 
-Problems/Problem.o: Problems/Problem.cpp.o
+AStar.o: AStar.cpp.o
 
-.PHONY : Problems/Problem.o
-
-# target to build an object file
-Problems/Problem.cpp.o:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Problems/Problem.cpp.o
-.PHONY : Problems/Problem.cpp.o
-
-Problems/Problem.i: Problems/Problem.cpp.i
-
-.PHONY : Problems/Problem.i
-
-# target to preprocess a source file
-Problems/Problem.cpp.i:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Problems/Problem.cpp.i
-.PHONY : Problems/Problem.cpp.i
-
-Problems/Problem.s: Problems/Problem.cpp.s
-
-.PHONY : Problems/Problem.s
-
-# target to generate assembly for a file
-Problems/Problem.cpp.s:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Problems/Problem.cpp.s
-.PHONY : Problems/Problem.cpp.s
-
-algorithms/BestFirstSearch.o: algorithms/BestFirstSearch.cpp.o
-
-.PHONY : algorithms/BestFirstSearch.o
+.PHONY : AStar.o
 
 # target to build an object file
-algorithms/BestFirstSearch.cpp.o:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/BestFirstSearch.cpp.o
-.PHONY : algorithms/BestFirstSearch.cpp.o
+AStar.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/AStar.cpp.o
+.PHONY : AStar.cpp.o
 
-algorithms/BestFirstSearch.i: algorithms/BestFirstSearch.cpp.i
+AStar.i: AStar.cpp.i
 
-.PHONY : algorithms/BestFirstSearch.i
+.PHONY : AStar.i
 
 # target to preprocess a source file
-algorithms/BestFirstSearch.cpp.i:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/BestFirstSearch.cpp.i
-.PHONY : algorithms/BestFirstSearch.cpp.i
+AStar.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/AStar.cpp.i
+.PHONY : AStar.cpp.i
 
-algorithms/BestFirstSearch.s: algorithms/BestFirstSearch.cpp.s
+AStar.s: AStar.cpp.s
 
-.PHONY : algorithms/BestFirstSearch.s
+.PHONY : AStar.s
 
 # target to generate assembly for a file
-algorithms/BestFirstSearch.cpp.s:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/BestFirstSearch.cpp.s
-.PHONY : algorithms/BestFirstSearch.cpp.s
+AStar.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/AStar.cpp.s
+.PHONY : AStar.cpp.s
 
-algorithms/Heap.o: algorithms/Heap.cpp.o
+BestFirstSearch.o: BestFirstSearch.cpp.o
 
-.PHONY : algorithms/Heap.o
+.PHONY : BestFirstSearch.o
 
 # target to build an object file
-algorithms/Heap.cpp.o:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/Heap.cpp.o
-.PHONY : algorithms/Heap.cpp.o
+BestFirstSearch.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/BestFirstSearch.cpp.o
+.PHONY : BestFirstSearch.cpp.o
 
-algorithms/Heap.i: algorithms/Heap.cpp.i
+BestFirstSearch.i: BestFirstSearch.cpp.i
 
-.PHONY : algorithms/Heap.i
+.PHONY : BestFirstSearch.i
 
 # target to preprocess a source file
-algorithms/Heap.cpp.i:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/Heap.cpp.i
-.PHONY : algorithms/Heap.cpp.i
+BestFirstSearch.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/BestFirstSearch.cpp.i
+.PHONY : BestFirstSearch.cpp.i
 
-algorithms/Heap.s: algorithms/Heap.cpp.s
+BestFirstSearch.s: BestFirstSearch.cpp.s
 
-.PHONY : algorithms/Heap.s
+.PHONY : BestFirstSearch.s
 
 # target to generate assembly for a file
-algorithms/Heap.cpp.s:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/Heap.cpp.s
-.PHONY : algorithms/Heap.cpp.s
+BestFirstSearch.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/BestFirstSearch.cpp.s
+.PHONY : BestFirstSearch.cpp.s
 
-algorithms/HeapSearcher.o: algorithms/HeapSearcher.cpp.o
+Heap.o: Heap.cpp.o
 
-.PHONY : algorithms/HeapSearcher.o
+.PHONY : Heap.o
 
 # target to build an object file
-algorithms/HeapSearcher.cpp.o:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/HeapSearcher.cpp.o
-.PHONY : algorithms/HeapSearcher.cpp.o
+Heap.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Heap.cpp.o
+.PHONY : Heap.cpp.o
 
-algorithms/HeapSearcher.i: algorithms/HeapSearcher.cpp.i
+Heap.i: Heap.cpp.i
 
-.PHONY : algorithms/HeapSearcher.i
+.PHONY : Heap.i
 
 # target to preprocess a source file
-algorithms/HeapSearcher.cpp.i:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/HeapSearcher.cpp.i
-.PHONY : algorithms/HeapSearcher.cpp.i
+Heap.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Heap.cpp.i
+.PHONY : Heap.cpp.i
 
-algorithms/HeapSearcher.s: algorithms/HeapSearcher.cpp.s
+Heap.s: Heap.cpp.s
 
-.PHONY : algorithms/HeapSearcher.s
+.PHONY : Heap.s
 
 # target to generate assembly for a file
-algorithms/HeapSearcher.cpp.s:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/HeapSearcher.cpp.s
-.PHONY : algorithms/HeapSearcher.cpp.s
+Heap.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Heap.cpp.s
+.PHONY : Heap.cpp.s
 
-algorithms/Solution.o: algorithms/Solution.cpp.o
+HeapSearcher.o: HeapSearcher.cpp.o
 
-.PHONY : algorithms/Solution.o
+.PHONY : HeapSearcher.o
 
 # target to build an object file
-algorithms/Solution.cpp.o:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/Solution.cpp.o
-.PHONY : algorithms/Solution.cpp.o
+HeapSearcher.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/HeapSearcher.cpp.o
+.PHONY : HeapSearcher.cpp.o
 
-algorithms/Solution.i: algorithms/Solution.cpp.i
+HeapSearcher.i: HeapSearcher.cpp.i
 
-.PHONY : algorithms/Solution.i
+.PHONY : HeapSearcher.i
 
 # target to preprocess a source file
-algorithms/Solution.cpp.i:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/Solution.cpp.i
-.PHONY : algorithms/Solution.cpp.i
+HeapSearcher.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/HeapSearcher.cpp.i
+.PHONY : HeapSearcher.cpp.i
 
-algorithms/Solution.s: algorithms/Solution.cpp.s
+HeapSearcher.s: HeapSearcher.cpp.s
 
-.PHONY : algorithms/Solution.s
+.PHONY : HeapSearcher.s
 
 # target to generate assembly for a file
-algorithms/Solution.cpp.s:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/Solution.cpp.s
-.PHONY : algorithms/Solution.cpp.s
+HeapSearcher.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/HeapSearcher.cpp.s
+.PHONY : HeapSearcher.cpp.s
 
-algorithms/State.o: algorithms/State.cpp.o
+Matrix.o: Matrix.cpp.o
 
-.PHONY : algorithms/State.o
+.PHONY : Matrix.o
 
 # target to build an object file
-algorithms/State.cpp.o:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/State.cpp.o
-.PHONY : algorithms/State.cpp.o
+Matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Matrix.cpp.o
+.PHONY : Matrix.cpp.o
 
-algorithms/State.i: algorithms/State.cpp.i
+Matrix.i: Matrix.cpp.i
 
-.PHONY : algorithms/State.i
+.PHONY : Matrix.i
 
 # target to preprocess a source file
-algorithms/State.cpp.i:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/State.cpp.i
-.PHONY : algorithms/State.cpp.i
+Matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Matrix.cpp.i
+.PHONY : Matrix.cpp.i
 
-algorithms/State.s: algorithms/State.cpp.s
+Matrix.s: Matrix.cpp.s
 
-.PHONY : algorithms/State.s
+.PHONY : Matrix.s
 
 # target to generate assembly for a file
-algorithms/State.cpp.s:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/State.cpp.s
-.PHONY : algorithms/State.cpp.s
+Matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Matrix.cpp.s
+.PHONY : Matrix.cpp.s
+
+Solution.o: Solution.cpp.o
+
+.PHONY : Solution.o
+
+# target to build an object file
+Solution.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Solution.cpp.o
+.PHONY : Solution.cpp.o
+
+Solution.i: Solution.cpp.i
+
+.PHONY : Solution.i
+
+# target to preprocess a source file
+Solution.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Solution.cpp.i
+.PHONY : Solution.cpp.i
+
+Solution.s: Solution.cpp.s
+
+.PHONY : Solution.s
+
+# target to generate assembly for a file
+Solution.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Solution.cpp.s
+.PHONY : Solution.cpp.s
+
+State.o: State.cpp.o
+
+.PHONY : State.o
+
+# target to build an object file
+State.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/State.cpp.o
+.PHONY : State.cpp.o
+
+State.i: State.cpp.i
+
+.PHONY : State.i
+
+# target to preprocess a source file
+State.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/State.cpp.i
+.PHONY : State.cpp.i
+
+State.s: State.cpp.s
+
+.PHONY : State.s
+
+# target to generate assembly for a file
+State.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/State.cpp.s
+.PHONY : State.cpp.s
 
 main.o: main.cpp.o
 
@@ -591,24 +618,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ex4"
-	@echo "... Problems/Problem.o"
-	@echo "... Problems/Problem.i"
-	@echo "... Problems/Problem.s"
-	@echo "... algorithms/BestFirstSearch.o"
-	@echo "... algorithms/BestFirstSearch.i"
-	@echo "... algorithms/BestFirstSearch.s"
-	@echo "... algorithms/Heap.o"
-	@echo "... algorithms/Heap.i"
-	@echo "... algorithms/Heap.s"
-	@echo "... algorithms/HeapSearcher.o"
-	@echo "... algorithms/HeapSearcher.i"
-	@echo "... algorithms/HeapSearcher.s"
-	@echo "... algorithms/Solution.o"
-	@echo "... algorithms/Solution.i"
-	@echo "... algorithms/Solution.s"
-	@echo "... algorithms/State.o"
-	@echo "... algorithms/State.i"
-	@echo "... algorithms/State.s"
+	@echo "... AStar.o"
+	@echo "... AStar.i"
+	@echo "... AStar.s"
+	@echo "... BestFirstSearch.o"
+	@echo "... BestFirstSearch.i"
+	@echo "... BestFirstSearch.s"
+	@echo "... Heap.o"
+	@echo "... Heap.i"
+	@echo "... Heap.s"
+	@echo "... HeapSearcher.o"
+	@echo "... HeapSearcher.i"
+	@echo "... HeapSearcher.s"
+	@echo "... Matrix.o"
+	@echo "... Matrix.i"
+	@echo "... Matrix.s"
+	@echo "... Solution.o"
+	@echo "... Solution.i"
+	@echo "... Solution.s"
+	@echo "... State.o"
+	@echo "... State.i"
+	@echo "... State.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

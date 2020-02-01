@@ -8,12 +8,13 @@
 #include "Searchable.h"
 
 class Matrix : public Searchable<int> {
-  int *matrix = nullptr, n, location = 0;
+  double *matrix = nullptr;
+  int size, location = 0;
  public:
   virtual ~Matrix();
   int GetN() const;
-  int getElement(int i, int j);
-  explicit Matrix(int n);
+  double getElement(int i, int j);
+  explicit Matrix(double* matrix,int size);
   State<int> getInitialState() override;
   bool isGoal(State<int> state) override;
   std::list<State<int>> getAllPossibleStates(State<int> s) override;

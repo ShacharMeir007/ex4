@@ -3,5 +3,4 @@ project(ex4)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp func.cpp)
-add_executable(ex4 main.cpp Searchable.h State.cpp State.h Searcher.h Solution.cpp Solution.h BestFirstSearch.h BestFirstSearch.cpp Heap.cpp Heap.h HeapSearcher.cpp HeapSearcher.h AStar.cpp AStar.h Matrix.cpp Matrix.h)
+add_executable(ex4 main.cpp server_side/MyParallelServer.cpp server_side/MyParallelServer.h server_side/Server.cpp server_side/Server.h server_side/MySerialServer.cpp server_side/MySerialServer.h server_side/ClientHandler.cpp server_side/MyTestClientHandler.cpp server_side/MyTestClientHandler.h server_side/CacheManager.cpp server_side/CacheManager.h server_side/Solver.cpp server_side/Solver.h server_side/FileCacheManager.cpp server_side/FileCacheManager.h server_side/StringReverser.cpp server_side/StringReverser.h server_side/Main.cpp server_side/Main.h AStar.cpp AStar.h BestFirstSearch.cpp BestFirstSearch.h Heap.cpp Heap.h HeapSearcher.cpp HeapSearcher.h Matrix.cpp Matrix.h Searchable.h Searcher.h Solution.cpp Solution.h State.cpp State.h)

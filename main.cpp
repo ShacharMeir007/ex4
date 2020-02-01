@@ -1,15 +1,13 @@
 #include <iostream>
 #include "server_side/Server.h"
-#include "Matrix.h"
-#include "BestFirstSearch.h"
-#include "Solution.h"
+#include "server_side/Main.h"
 
-int main() {
-    Searchable<int> *m = new Matrix(3);
-    Searcher<int> *best_first_search = new BestFirstSearch<int>();
-    Solution<std::list<State<int>>> s = best_first_search->search(m);
-    auto sol = s.getSolution();
-    for (State<int> so : sol) {
-      std::cout << so.GetState() << " " << so.GetCameFrom() << std::endl;
-    }
+int main(int argc,char* argv[]) {
+  if (argc != 2){
+    return 1;
+  }
+  int port = atoi(argv[1]);
+  server_side::Main main1;
+  main1.main(port);
+  return 0;
 }
