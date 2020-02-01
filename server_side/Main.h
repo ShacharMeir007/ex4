@@ -10,6 +10,7 @@
 #include "FileCacheManager.h"
 #include "Server.h"
 #include "MySerialServer.h"
+#include "MyParallelServer.h"
 #include "MyTestClientHandler.h"
 namespace server_side {
 class Main {

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/shacharmeir/CLionProjects/ex4/Solutions/StringSolution.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/Solutions/StringSolution.cpp.o"
+  "/Users/shacharmeir/CLionProjects/ex4/Problems/Problem.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/Problems/Problem.cpp.o"
   "/Users/shacharmeir/CLionProjects/ex4/algorithms/BestFirstSearch.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/algorithms/BestFirstSearch.cpp.o"
   "/Users/shacharmeir/CLionProjects/ex4/algorithms/Heap.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/algorithms/Heap.cpp.o"
   "/Users/shacharmeir/CLionProjects/ex4/algorithms/HeapSearcher.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/algorithms/HeapSearcher.cpp.o"

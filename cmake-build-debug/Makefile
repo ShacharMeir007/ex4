@@ -123,32 +123,32 @@ ex4/fast:
 	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/build
 .PHONY : ex4/fast
 
-Solutions/StringSolution.o: Solutions/StringSolution.cpp.o
+Problems/Problem.o: Problems/Problem.cpp.o
 
-.PHONY : Solutions/StringSolution.o
+.PHONY : Problems/Problem.o
 
 # target to build an object file
-Solutions/StringSolution.cpp.o:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Solutions/StringSolution.cpp.o
-.PHONY : Solutions/StringSolution.cpp.o
+Problems/Problem.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Problems/Problem.cpp.o
+.PHONY : Problems/Problem.cpp.o
 
-Solutions/StringSolution.i: Solutions/StringSolution.cpp.i
+Problems/Problem.i: Problems/Problem.cpp.i
 
-.PHONY : Solutions/StringSolution.i
+.PHONY : Problems/Problem.i
 
 # target to preprocess a source file
-Solutions/StringSolution.cpp.i:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Solutions/StringSolution.cpp.i
-.PHONY : Solutions/StringSolution.cpp.i
+Problems/Problem.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Problems/Problem.cpp.i
+.PHONY : Problems/Problem.cpp.i
 
-Solutions/StringSolution.s: Solutions/StringSolution.cpp.s
+Problems/Problem.s: Problems/Problem.cpp.s
 
-.PHONY : Solutions/StringSolution.s
+.PHONY : Problems/Problem.s
 
 # target to generate assembly for a file
-Solutions/StringSolution.cpp.s:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Solutions/StringSolution.cpp.s
-.PHONY : Solutions/StringSolution.cpp.s
+Problems/Problem.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Problems/Problem.cpp.s
+.PHONY : Problems/Problem.cpp.s
 
 algorithms/BestFirstSearch.o: algorithms/BestFirstSearch.cpp.o
 
@@ -591,9 +591,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ex4"
-	@echo "... Solutions/StringSolution.o"
-	@echo "... Solutions/StringSolution.i"
-	@echo "... Solutions/StringSolution.s"
+	@echo "... Problems/Problem.o"
+	@echo "... Problems/Problem.i"
+	@echo "... Problems/Problem.s"
 	@echo "... algorithms/BestFirstSearch.o"
 	@echo "... algorithms/BestFirstSearch.i"
 	@echo "... algorithms/BestFirstSearch.s"

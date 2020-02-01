@@ -7,6 +7,7 @@
 
 template<typename T>
 class Solution {
+ protected:
   T solution;
 
  public:

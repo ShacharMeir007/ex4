@@ -80,10 +80,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Solutions/StringSolution.cpp">
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Problems/Problem.cpp">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Solutions/StringSolution.h">
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Problems/Problem.h">
 			<Option target="ex4"/>
 		</Unit>
 		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/algorithms/BestFirstSearch.cpp">

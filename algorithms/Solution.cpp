@@ -6,6 +6,7 @@
 
 template<typename T>
 Solution<T>::Solution(T solution) {
+
   this->solution = solution;
 }
 

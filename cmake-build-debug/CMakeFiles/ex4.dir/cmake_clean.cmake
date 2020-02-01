@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ex4.dir/Solutions/StringSolution.cpp.o"
+  "CMakeFiles/ex4.dir/Problems/Problem.cpp.o"
   "CMakeFiles/ex4.dir/algorithms/BestFirstSearch.cpp.o"
   "CMakeFiles/ex4.dir/algorithms/Heap.cpp.o"
   "CMakeFiles/ex4.dir/algorithms/HeapSearcher.cpp.o"
