@@ -5,6 +5,8 @@
 
 #include "MyTestClientHandler.h"
 #include "../Matrix.h"
+#include "../Problems/MatrixProblem.h"
+#include "../adapters/SolverSearcherAdapter.h"
 std::vector<std::string> split(const char token, std::string& str) {
   std::vector<std::string> vector;
   std::string temp;
@@ -76,15 +78,20 @@ void server_side::MyTestClientHandler::handle(int client_socket) {
     std::cout<<std::endl;
   }
   Matrix matrix1(matrix,size);
-  std::pair<std::string,std::string> p1;
-  std::pair<std::string,std::string> p2;
+  std::pair<int,int> start;
+  std::pair<int,int> end;
   std::vector<std::string> point1 = split(',',lines[size]);
   size++;
   std::vector<std::string> point2 = split(',',lines[size]);
-  p1.first = point1[0];
-  p1.second = point1[1];
-  p2.first = point2[0];
-  p2.second = point2[1];
-  ::send(client_socket,s.c_str(),s.size(),0);
+  start.first = std::stoi(point1[0]);
+  start.second = std::stoi(point1[1]);
+  end.first = std::stoi(point2[0]);
+  end.second = std::stoi(point2[1]);
+  std::cout<<matrix1.GetN()<<std::endl;
+  MatrixProblem matrix_problem(matrix1,start, end);
+  SolverSearcherAdapter solver;
+  StringSolution solution = solver.solve(matrix_problem);
+  std::string msg = solution.GetSolution();
+  ::send(client_socket,msg.c_str(),msg.size(),0);
   close(client_socket);
 }

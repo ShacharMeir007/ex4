@@ -258,6 +258,60 @@ Matrix.cpp.s:
 	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Matrix.cpp.s
 .PHONY : Matrix.cpp.s
 
+Problems/MatrixProblem.o: Problems/MatrixProblem.cpp.o
+
+.PHONY : Problems/MatrixProblem.o
+
+# target to build an object file
+Problems/MatrixProblem.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Problems/MatrixProblem.cpp.o
+.PHONY : Problems/MatrixProblem.cpp.o
+
+Problems/MatrixProblem.i: Problems/MatrixProblem.cpp.i
+
+.PHONY : Problems/MatrixProblem.i
+
+# target to preprocess a source file
+Problems/MatrixProblem.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Problems/MatrixProblem.cpp.i
+.PHONY : Problems/MatrixProblem.cpp.i
+
+Problems/MatrixProblem.s: Problems/MatrixProblem.cpp.s
+
+.PHONY : Problems/MatrixProblem.s
+
+# target to generate assembly for a file
+Problems/MatrixProblem.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Problems/MatrixProblem.cpp.s
+.PHONY : Problems/MatrixProblem.cpp.s
+
+Problems/StringSolution.o: Problems/StringSolution.cpp.o
+
+.PHONY : Problems/StringSolution.o
+
+# target to build an object file
+Problems/StringSolution.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Problems/StringSolution.cpp.o
+.PHONY : Problems/StringSolution.cpp.o
+
+Problems/StringSolution.i: Problems/StringSolution.cpp.i
+
+.PHONY : Problems/StringSolution.i
+
+# target to preprocess a source file
+Problems/StringSolution.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Problems/StringSolution.cpp.i
+.PHONY : Problems/StringSolution.cpp.i
+
+Problems/StringSolution.s: Problems/StringSolution.cpp.s
+
+.PHONY : Problems/StringSolution.s
+
+# target to generate assembly for a file
+Problems/StringSolution.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Problems/StringSolution.cpp.s
+.PHONY : Problems/StringSolution.cpp.s
+
 Solution.o: Solution.cpp.o
 
 .PHONY : Solution.o
@@ -311,6 +365,33 @@ State.s: State.cpp.s
 State.cpp.s:
 	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/State.cpp.s
 .PHONY : State.cpp.s
+
+adapters/SolverSearcherAdapter.o: adapters/SolverSearcherAdapter.cpp.o
+
+.PHONY : adapters/SolverSearcherAdapter.o
+
+# target to build an object file
+adapters/SolverSearcherAdapter.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o
+.PHONY : adapters/SolverSearcherAdapter.cpp.o
+
+adapters/SolverSearcherAdapter.i: adapters/SolverSearcherAdapter.cpp.i
+
+.PHONY : adapters/SolverSearcherAdapter.i
+
+# target to preprocess a source file
+adapters/SolverSearcherAdapter.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.i
+.PHONY : adapters/SolverSearcherAdapter.cpp.i
+
+adapters/SolverSearcherAdapter.s: adapters/SolverSearcherAdapter.cpp.s
+
+.PHONY : adapters/SolverSearcherAdapter.s
+
+# target to generate assembly for a file
+adapters/SolverSearcherAdapter.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.s
+.PHONY : adapters/SolverSearcherAdapter.cpp.s
 
 main.o: main.cpp.o
 
@@ -633,12 +714,21 @@ help:
 	@echo "... Matrix.o"
 	@echo "... Matrix.i"
 	@echo "... Matrix.s"
+	@echo "... Problems/MatrixProblem.o"
+	@echo "... Problems/MatrixProblem.i"
+	@echo "... Problems/MatrixProblem.s"
+	@echo "... Problems/StringSolution.o"
+	@echo "... Problems/StringSolution.i"
+	@echo "... Problems/StringSolution.s"
 	@echo "... Solution.o"
 	@echo "... Solution.i"
 	@echo "... Solution.s"
 	@echo "... State.o"
 	@echo "... State.i"
 	@echo "... State.s"
+	@echo "... adapters/SolverSearcherAdapter.o"
+	@echo "... adapters/SolverSearcherAdapter.i"
+	@echo "... adapters/SolverSearcherAdapter.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

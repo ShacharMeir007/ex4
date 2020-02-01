@@ -30,8 +30,8 @@ bool Matrix::operator==(Matrix &m) {
   return true;
 }
 
-Matrix::Matrix(double *matrix,int n) {
-  matrix = matrix;
+Matrix::Matrix(double *mat,int n) {
+  this->matrix = mat;
   this->size = n;
 
 }

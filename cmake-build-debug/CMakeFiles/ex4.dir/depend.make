@@ -36,11 +36,36 @@ CMakeFiles/ex4.dir/Matrix.cpp.o: ../Matrix.h
 CMakeFiles/ex4.dir/Matrix.cpp.o: ../Searchable.h
 CMakeFiles/ex4.dir/Matrix.cpp.o: ../State.h
 
+CMakeFiles/ex4.dir/Problems/MatrixProblem.cpp.o: ../Matrix.h
+CMakeFiles/ex4.dir/Problems/MatrixProblem.cpp.o: ../Problems/MatrixProblem.cpp
+CMakeFiles/ex4.dir/Problems/MatrixProblem.cpp.o: ../Problems/MatrixProblem.h
+CMakeFiles/ex4.dir/Problems/MatrixProblem.cpp.o: ../Searchable.h
+CMakeFiles/ex4.dir/Problems/MatrixProblem.cpp.o: ../State.h
+
+CMakeFiles/ex4.dir/Problems/StringSolution.cpp.o: ../Problems/StringSolution.cpp
+CMakeFiles/ex4.dir/Problems/StringSolution.cpp.o: ../Problems/StringSolution.h
+
 CMakeFiles/ex4.dir/Solution.cpp.o: ../Solution.cpp
 CMakeFiles/ex4.dir/Solution.cpp.o: ../Solution.h
 
 CMakeFiles/ex4.dir/State.cpp.o: ../State.cpp
 CMakeFiles/ex4.dir/State.cpp.o: ../State.h
+
+CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o: ../BestFirstSearch.h
+CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o: ../Heap.h
+CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o: ../HeapSearcher.h
+CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o: ../Matrix.h
+CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o: ../Problems/MatrixProblem.h
+CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o: ../Problems/StringSolution.h
+CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o: ../Searchable.h
+CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o: ../Searcher.h
+CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o: ../Solution.h
+CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o: ../State.h
+CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o: ../adapters/SolverSearcherAdapter.cpp
+CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o: ../adapters/SolverSearcherAdapter.h
+CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o: ../server_side/CacheManager.h
+CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o: ../server_side/FileCacheManager.h
+CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o: ../server_side/Solver.h
 
 CMakeFiles/ex4.dir/main.cpp.o: ../main.cpp
 CMakeFiles/ex4.dir/main.cpp.o: ../server_side/CacheManager.h
@@ -90,8 +115,16 @@ CMakeFiles/ex4.dir/server_side/MySerialServer.cpp.o: ../server_side/MySerialServ
 CMakeFiles/ex4.dir/server_side/MySerialServer.cpp.o: ../server_side/MySerialServer.h
 CMakeFiles/ex4.dir/server_side/MySerialServer.cpp.o: ../server_side/Server.h
 
+CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o: ../Matrix.h
+CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o: ../Problems/MatrixProblem.h
+CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o: ../Problems/StringSolution.h
+CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o: ../Searchable.h
+CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o: ../Solution.h
+CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o: ../State.h
+CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o: ../adapters/SolverSearcherAdapter.h
 CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o: ../server_side/CacheManager.h
 CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o: ../server_side/ClientHandler.h
+CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o: ../server_side/FileCacheManager.h
 CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o: ../server_side/MyTestClientHandler.cpp
 CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o: ../server_side/MyTestClientHandler.h
 CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o: ../server_side/Solver.h
