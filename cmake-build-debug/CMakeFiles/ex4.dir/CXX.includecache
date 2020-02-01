@@ -6,21 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/Users/shacharmeir/CLionProjects/ex4/server_side/MySerialServer.cpp
-MySerialServer.h
-/Users/shacharmeir/CLionProjects/ex4/server_side/MySerialServer.h
+/Users/shacharmeir/CLionProjects/ex4/server_side/CacheManager.h
 
-/Users/shacharmeir/CLionProjects/ex4/server_side/MySerialServer.h
-Server.h
-/Users/shacharmeir/CLionProjects/ex4/server_side/Server.h
-iostream
+/Users/shacharmeir/CLionProjects/ex4/server_side/ClientHandler.h
+string
 -
+CacheManager.h
+/Users/shacharmeir/CLionProjects/ex4/server_side/CacheManager.h
+
+/Users/shacharmeir/CLionProjects/ex4/server_side/MyTestClientHandler.cpp
+MyTestClientHandler.h
+/Users/shacharmeir/CLionProjects/ex4/server_side/MyTestClientHandler.h
+
+/Users/shacharmeir/CLionProjects/ex4/server_side/MyTestClientHandler.h
+ClientHandler.h
+/Users/shacharmeir/CLionProjects/ex4/server_side/ClientHandler.h
+Solver.h
+/Users/shacharmeir/CLionProjects/ex4/server_side/Solver.h
 sys/socket.h
 -
-netinet/in.h
+string
+-
+iostream
 -
 unistd.h
 -
+netinet/in.h
+-
+arpa/inet.h
+-
 
-/Users/shacharmeir/CLionProjects/ex4/server_side/Server.h
+/Users/shacharmeir/CLionProjects/ex4/server_side/Solver.h
 

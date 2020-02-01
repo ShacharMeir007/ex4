@@ -1,21 +1,26 @@
 //
+// Created by shachar Meir on 01/02/2020.
+//
+
+#include "MyParallelServer.h"
+//
 // Created by shachar Meir on 18/01/2020.
 //
 
 
 
 #include "MySerialServer.h"
-void server_side::MySerialServer::stop() {
+void server_side::MyParallelServer::stop() {
   this->close_ = true;
 }
 
-void server_side::MySerialServer::open(int port,ClientHandler* c) {
+void server_side::MyParallelServer::open(int port,ClientHandler* c) {
 
-  this->thread_ = new std::thread(&MySerialServer::run,this,port, c);
-  this->thread_->join();
+  this->server_thread = new std::thread(&MyParallelServer::run,this,port, c);
+  this->server_thread->join();
 }
 
-void server_side::MySerialServer::run(int port, ClientHandler *c) {
+void server_side::MyParallelServer::run(int port, ClientHandler *c) {
   int socketfd = socket(AF_INET, SOCK_STREAM,0);
   if (socketfd == -1){
     std::cerr<<"can't create socket"<<std::endl;
@@ -46,14 +51,16 @@ void server_side::MySerialServer::run(int port, ClientHandler *c) {
     std::cout << "Server is waiting to accept" << std::endl;
     int client_socket = accept(socketfd, (struct sockaddr *) &address,
                                (socklen_t *) &address);
-    std::cout << "bam" << std::endl;
+    std::cout << "accepted" << std::endl;
     if (client_socket == -1) {
       std::cerr << "Error accepting client" << std::endl;
       stop();
-      continue;
+      break;
     }
 
-    c->handle(client_socket);
+    this->client_threads.push(new std::thread(&ClientHandler::handle,c,client_socket));
+
+    //c->handle(client_socket);
 
   }
   close(socketfd);

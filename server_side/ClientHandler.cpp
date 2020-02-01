@@ -3,3 +3,5 @@
 //
 
 #include "ClientHandler.h"
+
+//server_side::ClientHandler::ClientHandler(server_side::CacheManager<std::string, std::string> *cache) : cache(cache) {}

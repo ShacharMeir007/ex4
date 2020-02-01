@@ -7,11 +7,12 @@
 
 template<typename T>
 class Solution {
+ protected:
   T solution;
 
  public:
   explicit Solution(T solution);
-  T getSolution();
+  virtual T getSolution();
 };
 
 #endif //EX4_ALGORITHMS_SOLUTION_H_

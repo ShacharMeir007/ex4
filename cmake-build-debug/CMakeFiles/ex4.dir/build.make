@@ -70,9 +70,22 @@ CMakeFiles/ex4.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shacharmeir/CLionProjects/ex4/main.cpp -o CMakeFiles/ex4.dir/main.cpp.s
 
+CMakeFiles/ex4.dir/server_side/Main.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../server_side/Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex4.dir/server_side/Main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/server_side/Main.cpp.o -c /Users/shacharmeir/CLionProjects/ex4/server_side/Main.cpp
+
+CMakeFiles/ex4.dir/server_side/Main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/server_side/Main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shacharmeir/CLionProjects/ex4/server_side/Main.cpp > CMakeFiles/ex4.dir/server_side/Main.cpp.i
+
+CMakeFiles/ex4.dir/server_side/Main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/server_side/Main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shacharmeir/CLionProjects/ex4/server_side/Main.cpp -o CMakeFiles/ex4.dir/server_side/Main.cpp.s
+
 CMakeFiles/ex4.dir/server_side/Server.cpp.o: CMakeFiles/ex4.dir/flags.make
 CMakeFiles/ex4.dir/server_side/Server.cpp.o: ../server_side/Server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex4.dir/server_side/Server.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ex4.dir/server_side/Server.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/server_side/Server.cpp.o -c /Users/shacharmeir/CLionProjects/ex4/server_side/Server.cpp
 
 CMakeFiles/ex4.dir/server_side/Server.cpp.i: cmake_force
@@ -85,7 +98,7 @@ CMakeFiles/ex4.dir/server_side/Server.cpp.s: cmake_force
 
 CMakeFiles/ex4.dir/server_side/MySerialServer.cpp.o: CMakeFiles/ex4.dir/flags.make
 CMakeFiles/ex4.dir/server_side/MySerialServer.cpp.o: ../server_side/MySerialServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ex4.dir/server_side/MySerialServer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ex4.dir/server_side/MySerialServer.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/server_side/MySerialServer.cpp.o -c /Users/shacharmeir/CLionProjects/ex4/server_side/MySerialServer.cpp
 
 CMakeFiles/ex4.dir/server_side/MySerialServer.cpp.i: cmake_force
@@ -98,7 +111,7 @@ CMakeFiles/ex4.dir/server_side/MySerialServer.cpp.s: cmake_force
 
 CMakeFiles/ex4.dir/server_side/ClientHandler.cpp.o: CMakeFiles/ex4.dir/flags.make
 CMakeFiles/ex4.dir/server_side/ClientHandler.cpp.o: ../server_side/ClientHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ex4.dir/server_side/ClientHandler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ex4.dir/server_side/ClientHandler.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/server_side/ClientHandler.cpp.o -c /Users/shacharmeir/CLionProjects/ex4/server_side/ClientHandler.cpp
 
 CMakeFiles/ex4.dir/server_side/ClientHandler.cpp.i: cmake_force
@@ -111,7 +124,7 @@ CMakeFiles/ex4.dir/server_side/ClientHandler.cpp.s: cmake_force
 
 CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o: CMakeFiles/ex4.dir/flags.make
 CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o: ../server_side/MyTestClientHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o -c /Users/shacharmeir/CLionProjects/ex4/server_side/MyTestClientHandler.cpp
 
 CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.s: cmake_force
 
 CMakeFiles/ex4.dir/server_side/CacheManager.cpp.o: CMakeFiles/ex4.dir/flags.make
 CMakeFiles/ex4.dir/server_side/CacheManager.cpp.o: ../server_side/CacheManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ex4.dir/server_side/CacheManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ex4.dir/server_side/CacheManager.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/server_side/CacheManager.cpp.o -c /Users/shacharmeir/CLionProjects/ex4/server_side/CacheManager.cpp
 
 CMakeFiles/ex4.dir/server_side/CacheManager.cpp.i: cmake_force
@@ -137,7 +150,7 @@ CMakeFiles/ex4.dir/server_side/CacheManager.cpp.s: cmake_force
 
 CMakeFiles/ex4.dir/server_side/Solver.cpp.o: CMakeFiles/ex4.dir/flags.make
 CMakeFiles/ex4.dir/server_side/Solver.cpp.o: ../server_side/Solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ex4.dir/server_side/Solver.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ex4.dir/server_side/Solver.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/server_side/Solver.cpp.o -c /Users/shacharmeir/CLionProjects/ex4/server_side/Solver.cpp
 
 CMakeFiles/ex4.dir/server_side/Solver.cpp.i: cmake_force
@@ -150,7 +163,7 @@ CMakeFiles/ex4.dir/server_side/Solver.cpp.s: cmake_force
 
 CMakeFiles/ex4.dir/server_side/FileCacheManager.cpp.o: CMakeFiles/ex4.dir/flags.make
 CMakeFiles/ex4.dir/server_side/FileCacheManager.cpp.o: ../server_side/FileCacheManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ex4.dir/server_side/FileCacheManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ex4.dir/server_side/FileCacheManager.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/server_side/FileCacheManager.cpp.o -c /Users/shacharmeir/CLionProjects/ex4/server_side/FileCacheManager.cpp
 
 CMakeFiles/ex4.dir/server_side/FileCacheManager.cpp.i: cmake_force
@@ -163,7 +176,7 @@ CMakeFiles/ex4.dir/server_side/FileCacheManager.cpp.s: cmake_force
 
 CMakeFiles/ex4.dir/server_side/StringReverser.cpp.o: CMakeFiles/ex4.dir/flags.make
 CMakeFiles/ex4.dir/server_side/StringReverser.cpp.o: ../server_side/StringReverser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ex4.dir/server_side/StringReverser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ex4.dir/server_side/StringReverser.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/server_side/StringReverser.cpp.o -c /Users/shacharmeir/CLionProjects/ex4/server_side/StringReverser.cpp
 
 CMakeFiles/ex4.dir/server_side/StringReverser.cpp.i: cmake_force
@@ -174,9 +187,101 @@ CMakeFiles/ex4.dir/server_side/StringReverser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/server_side/StringReverser.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shacharmeir/CLionProjects/ex4/server_side/StringReverser.cpp -o CMakeFiles/ex4.dir/server_side/StringReverser.cpp.s
 
+CMakeFiles/ex4.dir/algorithms/State.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/algorithms/State.cpp.o: ../algorithms/State.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ex4.dir/algorithms/State.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/algorithms/State.cpp.o -c /Users/shacharmeir/CLionProjects/ex4/algorithms/State.cpp
+
+CMakeFiles/ex4.dir/algorithms/State.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/algorithms/State.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shacharmeir/CLionProjects/ex4/algorithms/State.cpp > CMakeFiles/ex4.dir/algorithms/State.cpp.i
+
+CMakeFiles/ex4.dir/algorithms/State.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/algorithms/State.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shacharmeir/CLionProjects/ex4/algorithms/State.cpp -o CMakeFiles/ex4.dir/algorithms/State.cpp.s
+
+CMakeFiles/ex4.dir/algorithms/Solution.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/algorithms/Solution.cpp.o: ../algorithms/Solution.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ex4.dir/algorithms/Solution.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/algorithms/Solution.cpp.o -c /Users/shacharmeir/CLionProjects/ex4/algorithms/Solution.cpp
+
+CMakeFiles/ex4.dir/algorithms/Solution.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/algorithms/Solution.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shacharmeir/CLionProjects/ex4/algorithms/Solution.cpp > CMakeFiles/ex4.dir/algorithms/Solution.cpp.i
+
+CMakeFiles/ex4.dir/algorithms/Solution.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/algorithms/Solution.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shacharmeir/CLionProjects/ex4/algorithms/Solution.cpp -o CMakeFiles/ex4.dir/algorithms/Solution.cpp.s
+
+CMakeFiles/ex4.dir/algorithms/BestFirstSearch.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/algorithms/BestFirstSearch.cpp.o: ../algorithms/BestFirstSearch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ex4.dir/algorithms/BestFirstSearch.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/algorithms/BestFirstSearch.cpp.o -c /Users/shacharmeir/CLionProjects/ex4/algorithms/BestFirstSearch.cpp
+
+CMakeFiles/ex4.dir/algorithms/BestFirstSearch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/algorithms/BestFirstSearch.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shacharmeir/CLionProjects/ex4/algorithms/BestFirstSearch.cpp > CMakeFiles/ex4.dir/algorithms/BestFirstSearch.cpp.i
+
+CMakeFiles/ex4.dir/algorithms/BestFirstSearch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/algorithms/BestFirstSearch.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shacharmeir/CLionProjects/ex4/algorithms/BestFirstSearch.cpp -o CMakeFiles/ex4.dir/algorithms/BestFirstSearch.cpp.s
+
+CMakeFiles/ex4.dir/algorithms/Heap.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/algorithms/Heap.cpp.o: ../algorithms/Heap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ex4.dir/algorithms/Heap.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/algorithms/Heap.cpp.o -c /Users/shacharmeir/CLionProjects/ex4/algorithms/Heap.cpp
+
+CMakeFiles/ex4.dir/algorithms/Heap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/algorithms/Heap.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shacharmeir/CLionProjects/ex4/algorithms/Heap.cpp > CMakeFiles/ex4.dir/algorithms/Heap.cpp.i
+
+CMakeFiles/ex4.dir/algorithms/Heap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/algorithms/Heap.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shacharmeir/CLionProjects/ex4/algorithms/Heap.cpp -o CMakeFiles/ex4.dir/algorithms/Heap.cpp.s
+
+CMakeFiles/ex4.dir/algorithms/HeapSearcher.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/algorithms/HeapSearcher.cpp.o: ../algorithms/HeapSearcher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ex4.dir/algorithms/HeapSearcher.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/algorithms/HeapSearcher.cpp.o -c /Users/shacharmeir/CLionProjects/ex4/algorithms/HeapSearcher.cpp
+
+CMakeFiles/ex4.dir/algorithms/HeapSearcher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/algorithms/HeapSearcher.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shacharmeir/CLionProjects/ex4/algorithms/HeapSearcher.cpp > CMakeFiles/ex4.dir/algorithms/HeapSearcher.cpp.i
+
+CMakeFiles/ex4.dir/algorithms/HeapSearcher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/algorithms/HeapSearcher.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shacharmeir/CLionProjects/ex4/algorithms/HeapSearcher.cpp -o CMakeFiles/ex4.dir/algorithms/HeapSearcher.cpp.s
+
+CMakeFiles/ex4.dir/server_side/MyParallelServer.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/server_side/MyParallelServer.cpp.o: ../server_side/MyParallelServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ex4.dir/server_side/MyParallelServer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/server_side/MyParallelServer.cpp.o -c /Users/shacharmeir/CLionProjects/ex4/server_side/MyParallelServer.cpp
+
+CMakeFiles/ex4.dir/server_side/MyParallelServer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/server_side/MyParallelServer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shacharmeir/CLionProjects/ex4/server_side/MyParallelServer.cpp > CMakeFiles/ex4.dir/server_side/MyParallelServer.cpp.i
+
+CMakeFiles/ex4.dir/server_side/MyParallelServer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/server_side/MyParallelServer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shacharmeir/CLionProjects/ex4/server_side/MyParallelServer.cpp -o CMakeFiles/ex4.dir/server_side/MyParallelServer.cpp.s
+
+CMakeFiles/ex4.dir/Problems/Problem.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/Problems/Problem.cpp.o: ../Problems/Problem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/ex4.dir/Problems/Problem.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/Problems/Problem.cpp.o -c /Users/shacharmeir/CLionProjects/ex4/Problems/Problem.cpp
+
+CMakeFiles/ex4.dir/Problems/Problem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/Problems/Problem.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shacharmeir/CLionProjects/ex4/Problems/Problem.cpp > CMakeFiles/ex4.dir/Problems/Problem.cpp.i
+
+CMakeFiles/ex4.dir/Problems/Problem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/Problems/Problem.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shacharmeir/CLionProjects/ex4/Problems/Problem.cpp -o CMakeFiles/ex4.dir/Problems/Problem.cpp.s
+
 # Object files for target ex4
 ex4_OBJECTS = \
 "CMakeFiles/ex4.dir/main.cpp.o" \
+"CMakeFiles/ex4.dir/server_side/Main.cpp.o" \
 "CMakeFiles/ex4.dir/server_side/Server.cpp.o" \
 "CMakeFiles/ex4.dir/server_side/MySerialServer.cpp.o" \
 "CMakeFiles/ex4.dir/server_side/ClientHandler.cpp.o" \
@@ -184,12 +289,20 @@ ex4_OBJECTS = \
 "CMakeFiles/ex4.dir/server_side/CacheManager.cpp.o" \
 "CMakeFiles/ex4.dir/server_side/Solver.cpp.o" \
 "CMakeFiles/ex4.dir/server_side/FileCacheManager.cpp.o" \
-"CMakeFiles/ex4.dir/server_side/StringReverser.cpp.o"
+"CMakeFiles/ex4.dir/server_side/StringReverser.cpp.o" \
+"CMakeFiles/ex4.dir/algorithms/State.cpp.o" \
+"CMakeFiles/ex4.dir/algorithms/Solution.cpp.o" \
+"CMakeFiles/ex4.dir/algorithms/BestFirstSearch.cpp.o" \
+"CMakeFiles/ex4.dir/algorithms/Heap.cpp.o" \
+"CMakeFiles/ex4.dir/algorithms/HeapSearcher.cpp.o" \
+"CMakeFiles/ex4.dir/server_side/MyParallelServer.cpp.o" \
+"CMakeFiles/ex4.dir/Problems/Problem.cpp.o"
 
 # External object files for target ex4
 ex4_EXTERNAL_OBJECTS =
 
 ex4: CMakeFiles/ex4.dir/main.cpp.o
+ex4: CMakeFiles/ex4.dir/server_side/Main.cpp.o
 ex4: CMakeFiles/ex4.dir/server_side/Server.cpp.o
 ex4: CMakeFiles/ex4.dir/server_side/MySerialServer.cpp.o
 ex4: CMakeFiles/ex4.dir/server_side/ClientHandler.cpp.o
@@ -198,9 +311,16 @@ ex4: CMakeFiles/ex4.dir/server_side/CacheManager.cpp.o
 ex4: CMakeFiles/ex4.dir/server_side/Solver.cpp.o
 ex4: CMakeFiles/ex4.dir/server_side/FileCacheManager.cpp.o
 ex4: CMakeFiles/ex4.dir/server_side/StringReverser.cpp.o
+ex4: CMakeFiles/ex4.dir/algorithms/State.cpp.o
+ex4: CMakeFiles/ex4.dir/algorithms/Solution.cpp.o
+ex4: CMakeFiles/ex4.dir/algorithms/BestFirstSearch.cpp.o
+ex4: CMakeFiles/ex4.dir/algorithms/Heap.cpp.o
+ex4: CMakeFiles/ex4.dir/algorithms/HeapSearcher.cpp.o
+ex4: CMakeFiles/ex4.dir/server_side/MyParallelServer.cpp.o
+ex4: CMakeFiles/ex4.dir/Problems/Problem.cpp.o
 ex4: CMakeFiles/ex4.dir/build.make
 ex4: CMakeFiles/ex4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ex4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable ex4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

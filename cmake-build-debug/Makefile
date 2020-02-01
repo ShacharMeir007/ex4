@@ -123,6 +123,168 @@ ex4/fast:
 	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/build
 .PHONY : ex4/fast
 
+Problems/Problem.o: Problems/Problem.cpp.o
+
+.PHONY : Problems/Problem.o
+
+# target to build an object file
+Problems/Problem.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Problems/Problem.cpp.o
+.PHONY : Problems/Problem.cpp.o
+
+Problems/Problem.i: Problems/Problem.cpp.i
+
+.PHONY : Problems/Problem.i
+
+# target to preprocess a source file
+Problems/Problem.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Problems/Problem.cpp.i
+.PHONY : Problems/Problem.cpp.i
+
+Problems/Problem.s: Problems/Problem.cpp.s
+
+.PHONY : Problems/Problem.s
+
+# target to generate assembly for a file
+Problems/Problem.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Problems/Problem.cpp.s
+.PHONY : Problems/Problem.cpp.s
+
+algorithms/BestFirstSearch.o: algorithms/BestFirstSearch.cpp.o
+
+.PHONY : algorithms/BestFirstSearch.o
+
+# target to build an object file
+algorithms/BestFirstSearch.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/BestFirstSearch.cpp.o
+.PHONY : algorithms/BestFirstSearch.cpp.o
+
+algorithms/BestFirstSearch.i: algorithms/BestFirstSearch.cpp.i
+
+.PHONY : algorithms/BestFirstSearch.i
+
+# target to preprocess a source file
+algorithms/BestFirstSearch.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/BestFirstSearch.cpp.i
+.PHONY : algorithms/BestFirstSearch.cpp.i
+
+algorithms/BestFirstSearch.s: algorithms/BestFirstSearch.cpp.s
+
+.PHONY : algorithms/BestFirstSearch.s
+
+# target to generate assembly for a file
+algorithms/BestFirstSearch.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/BestFirstSearch.cpp.s
+.PHONY : algorithms/BestFirstSearch.cpp.s
+
+algorithms/Heap.o: algorithms/Heap.cpp.o
+
+.PHONY : algorithms/Heap.o
+
+# target to build an object file
+algorithms/Heap.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/Heap.cpp.o
+.PHONY : algorithms/Heap.cpp.o
+
+algorithms/Heap.i: algorithms/Heap.cpp.i
+
+.PHONY : algorithms/Heap.i
+
+# target to preprocess a source file
+algorithms/Heap.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/Heap.cpp.i
+.PHONY : algorithms/Heap.cpp.i
+
+algorithms/Heap.s: algorithms/Heap.cpp.s
+
+.PHONY : algorithms/Heap.s
+
+# target to generate assembly for a file
+algorithms/Heap.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/Heap.cpp.s
+.PHONY : algorithms/Heap.cpp.s
+
+algorithms/HeapSearcher.o: algorithms/HeapSearcher.cpp.o
+
+.PHONY : algorithms/HeapSearcher.o
+
+# target to build an object file
+algorithms/HeapSearcher.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/HeapSearcher.cpp.o
+.PHONY : algorithms/HeapSearcher.cpp.o
+
+algorithms/HeapSearcher.i: algorithms/HeapSearcher.cpp.i
+
+.PHONY : algorithms/HeapSearcher.i
+
+# target to preprocess a source file
+algorithms/HeapSearcher.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/HeapSearcher.cpp.i
+.PHONY : algorithms/HeapSearcher.cpp.i
+
+algorithms/HeapSearcher.s: algorithms/HeapSearcher.cpp.s
+
+.PHONY : algorithms/HeapSearcher.s
+
+# target to generate assembly for a file
+algorithms/HeapSearcher.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/HeapSearcher.cpp.s
+.PHONY : algorithms/HeapSearcher.cpp.s
+
+algorithms/Solution.o: algorithms/Solution.cpp.o
+
+.PHONY : algorithms/Solution.o
+
+# target to build an object file
+algorithms/Solution.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/Solution.cpp.o
+.PHONY : algorithms/Solution.cpp.o
+
+algorithms/Solution.i: algorithms/Solution.cpp.i
+
+.PHONY : algorithms/Solution.i
+
+# target to preprocess a source file
+algorithms/Solution.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/Solution.cpp.i
+.PHONY : algorithms/Solution.cpp.i
+
+algorithms/Solution.s: algorithms/Solution.cpp.s
+
+.PHONY : algorithms/Solution.s
+
+# target to generate assembly for a file
+algorithms/Solution.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/Solution.cpp.s
+.PHONY : algorithms/Solution.cpp.s
+
+algorithms/State.o: algorithms/State.cpp.o
+
+.PHONY : algorithms/State.o
+
+# target to build an object file
+algorithms/State.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/State.cpp.o
+.PHONY : algorithms/State.cpp.o
+
+algorithms/State.i: algorithms/State.cpp.i
+
+.PHONY : algorithms/State.i
+
+# target to preprocess a source file
+algorithms/State.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/State.cpp.i
+.PHONY : algorithms/State.cpp.i
+
+algorithms/State.s: algorithms/State.cpp.s
+
+.PHONY : algorithms/State.s
+
+# target to generate assembly for a file
+algorithms/State.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/algorithms/State.cpp.s
+.PHONY : algorithms/State.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -230,6 +392,60 @@ server_side/FileCacheManager.s: server_side/FileCacheManager.cpp.s
 server_side/FileCacheManager.cpp.s:
 	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/server_side/FileCacheManager.cpp.s
 .PHONY : server_side/FileCacheManager.cpp.s
+
+server_side/Main.o: server_side/Main.cpp.o
+
+.PHONY : server_side/Main.o
+
+# target to build an object file
+server_side/Main.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/server_side/Main.cpp.o
+.PHONY : server_side/Main.cpp.o
+
+server_side/Main.i: server_side/Main.cpp.i
+
+.PHONY : server_side/Main.i
+
+# target to preprocess a source file
+server_side/Main.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/server_side/Main.cpp.i
+.PHONY : server_side/Main.cpp.i
+
+server_side/Main.s: server_side/Main.cpp.s
+
+.PHONY : server_side/Main.s
+
+# target to generate assembly for a file
+server_side/Main.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/server_side/Main.cpp.s
+.PHONY : server_side/Main.cpp.s
+
+server_side/MyParallelServer.o: server_side/MyParallelServer.cpp.o
+
+.PHONY : server_side/MyParallelServer.o
+
+# target to build an object file
+server_side/MyParallelServer.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/server_side/MyParallelServer.cpp.o
+.PHONY : server_side/MyParallelServer.cpp.o
+
+server_side/MyParallelServer.i: server_side/MyParallelServer.cpp.i
+
+.PHONY : server_side/MyParallelServer.i
+
+# target to preprocess a source file
+server_side/MyParallelServer.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/server_side/MyParallelServer.cpp.i
+.PHONY : server_side/MyParallelServer.cpp.i
+
+server_side/MyParallelServer.s: server_side/MyParallelServer.cpp.s
+
+.PHONY : server_side/MyParallelServer.s
+
+# target to generate assembly for a file
+server_side/MyParallelServer.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/server_side/MyParallelServer.cpp.s
+.PHONY : server_side/MyParallelServer.cpp.s
 
 server_side/MySerialServer.o: server_side/MySerialServer.cpp.o
 
@@ -375,6 +591,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ex4"
+	@echo "... Problems/Problem.o"
+	@echo "... Problems/Problem.i"
+	@echo "... Problems/Problem.s"
+	@echo "... algorithms/BestFirstSearch.o"
+	@echo "... algorithms/BestFirstSearch.i"
+	@echo "... algorithms/BestFirstSearch.s"
+	@echo "... algorithms/Heap.o"
+	@echo "... algorithms/Heap.i"
+	@echo "... algorithms/Heap.s"
+	@echo "... algorithms/HeapSearcher.o"
+	@echo "... algorithms/HeapSearcher.i"
+	@echo "... algorithms/HeapSearcher.s"
+	@echo "... algorithms/Solution.o"
+	@echo "... algorithms/Solution.i"
+	@echo "... algorithms/Solution.s"
+	@echo "... algorithms/State.o"
+	@echo "... algorithms/State.i"
+	@echo "... algorithms/State.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -387,6 +621,12 @@ help:
 	@echo "... server_side/FileCacheManager.o"
 	@echo "... server_side/FileCacheManager.i"
 	@echo "... server_side/FileCacheManager.s"
+	@echo "... server_side/Main.o"
+	@echo "... server_side/Main.i"
+	@echo "... server_side/Main.s"
+	@echo "... server_side/MyParallelServer.o"
+	@echo "... server_side/MyParallelServer.i"
+	@echo "... server_side/MyParallelServer.s"
 	@echo "... server_side/MySerialServer.o"
 	@echo "... server_side/MySerialServer.i"
 	@echo "... server_side/MySerialServer.s"
