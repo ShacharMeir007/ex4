@@ -116,6 +116,18 @@
 		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblem.h">
 			<Option target="ex4"/>
 		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblemCreator.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblemCreator.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Problems/ProblemCreator.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Problems/ProblemCreator.h">
+			<Option target="ex4"/>
+		</Unit>
 		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Problems/StringSolution.cpp">
 			<Option target="ex4"/>
 		</Unit>

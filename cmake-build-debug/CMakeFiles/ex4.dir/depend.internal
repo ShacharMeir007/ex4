@@ -42,6 +42,18 @@ CMakeFiles/ex4.dir/Problems/MatrixProblem.cpp.o
  /Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblem.h
  /Users/shacharmeir/CLionProjects/ex4/Searchable.h
  /Users/shacharmeir/CLionProjects/ex4/State.h
+CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.o
+ /Users/shacharmeir/CLionProjects/ex4/Matrix.h
+ /Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblem.h
+ /Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblemCreator.cpp
+ /Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblemCreator.h
+ /Users/shacharmeir/CLionProjects/ex4/Problems/ProblemCreator.h
+ /Users/shacharmeir/CLionProjects/ex4/Searchable.h
+ /Users/shacharmeir/CLionProjects/ex4/State.h
+ /Users/shacharmeir/CLionProjects/ex4/TextFunctions.h
+CMakeFiles/ex4.dir/Problems/ProblemCreator.cpp.o
+ /Users/shacharmeir/CLionProjects/ex4/Problems/ProblemCreator.cpp
+ /Users/shacharmeir/CLionProjects/ex4/Problems/ProblemCreator.h
 CMakeFiles/ex4.dir/Problems/StringSolution.cpp.o
  /Users/shacharmeir/CLionProjects/ex4/Problems/StringSolution.cpp
  /Users/shacharmeir/CLionProjects/ex4/Problems/StringSolution.h
@@ -74,6 +86,7 @@ CMakeFiles/ex4.dir/main.cpp.o
  /Users/shacharmeir/CLionProjects/ex4/HeapSearcher.h
  /Users/shacharmeir/CLionProjects/ex4/Matrix.h
  /Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblem.h
+ /Users/shacharmeir/CLionProjects/ex4/Problems/ProblemCreator.h
  /Users/shacharmeir/CLionProjects/ex4/Problems/StringSolution.h
  /Users/shacharmeir/CLionProjects/ex4/Searchable.h
  /Users/shacharmeir/CLionProjects/ex4/Searcher.h
@@ -110,6 +123,8 @@ CMakeFiles/ex4.dir/server_side/Main.cpp.o
  /Users/shacharmeir/CLionProjects/ex4/HeapSearcher.h
  /Users/shacharmeir/CLionProjects/ex4/Matrix.h
  /Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblem.h
+ /Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblemCreator.h
+ /Users/shacharmeir/CLionProjects/ex4/Problems/ProblemCreator.h
  /Users/shacharmeir/CLionProjects/ex4/Problems/StringSolution.h
  /Users/shacharmeir/CLionProjects/ex4/Searchable.h
  /Users/shacharmeir/CLionProjects/ex4/Searcher.h
@@ -144,6 +159,7 @@ CMakeFiles/ex4.dir/server_side/MySerialServer.cpp.o
 CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o
  /Users/shacharmeir/CLionProjects/ex4/Matrix.h
  /Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblem.h
+ /Users/shacharmeir/CLionProjects/ex4/Problems/ProblemCreator.h
  /Users/shacharmeir/CLionProjects/ex4/Problems/StringSolution.h
  /Users/shacharmeir/CLionProjects/ex4/Searchable.h
  /Users/shacharmeir/CLionProjects/ex4/Searcher.h

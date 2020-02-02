@@ -6,19 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/shacharmeir/CLionProjects/ex4/AStar.cpp
-unordered_set
--
-AStar.h
-/Users/shacharmeir/CLionProjects/ex4/AStar.h
-
 /Users/shacharmeir/CLionProjects/ex4/AStar.h
 HeapSearcher.h
 /Users/shacharmeir/CLionProjects/ex4/HeapSearcher.h
-
-/Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.cpp
-BestFirstSearch.h
-/Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.h
 
 /Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.h
 HeapSearcher.h
@@ -40,10 +30,6 @@ iostream
 State.h
 /Users/shacharmeir/CLionProjects/ex4/State.h
 
-/Users/shacharmeir/CLionProjects/ex4/HeapSearcher.cpp
-HeapSearcher.h
-/Users/shacharmeir/CLionProjects/ex4/HeapSearcher.h
-
 /Users/shacharmeir/CLionProjects/ex4/HeapSearcher.h
 Searcher.h
 /Users/shacharmeir/CLionProjects/ex4/Searcher.h
@@ -59,6 +45,28 @@ string
 -
 ../Matrix.h
 /Users/shacharmeir/CLionProjects/ex4/Matrix.h
+
+/Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblemCreator.cpp
+MatrixProblemCreator.h
+/Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblemCreator.h
+
+/Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblemCreator.h
+string
+-
+vector
+-
+MatrixProblem.h
+/Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblem.h
+ProblemCreator.h
+/Users/shacharmeir/CLionProjects/ex4/Problems/ProblemCreator.h
+../TextFunctions.h
+/Users/shacharmeir/CLionProjects/ex4/TextFunctions.h
+
+/Users/shacharmeir/CLionProjects/ex4/Problems/ProblemCreator.cpp
+ProblemCreator.h
+/Users/shacharmeir/CLionProjects/ex4/Problems/ProblemCreator.h
+
+/Users/shacharmeir/CLionProjects/ex4/Problems/ProblemCreator.h
 
 /Users/shacharmeir/CLionProjects/ex4/Problems/StringSolution.h
 string
@@ -135,6 +143,8 @@ iostream
 /Users/shacharmeir/CLionProjects/ex4/server_side/Main.cpp
 Main.h
 /Users/shacharmeir/CLionProjects/ex4/server_side/Main.h
+../Problems/MatrixProblemCreator.h
+/Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblemCreator.h
 
 /Users/shacharmeir/CLionProjects/ex4/server_side/Main.h
 Solver.h
@@ -192,6 +202,10 @@ unistd.h
 thread
 -
 
+/Users/shacharmeir/CLionProjects/ex4/server_side/MyTestClientHandler.cpp
+MyTestClientHandler.h
+/Users/shacharmeir/CLionProjects/ex4/server_side/MyTestClientHandler.h
+
 /Users/shacharmeir/CLionProjects/ex4/server_side/MyTestClientHandler.h
 ClientHandler.h
 /Users/shacharmeir/CLionProjects/ex4/server_side/ClientHandler.h
@@ -215,6 +229,8 @@ vector
 /Users/shacharmeir/CLionProjects/ex4/Matrix.h
 ../Problems/MatrixProblem.h
 /Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblem.h
+../Problems/ProblemCreator.h
+/Users/shacharmeir/CLionProjects/ex4/Problems/ProblemCreator.h
 ../adapters/SolverSearcherAdapter.h
 /Users/shacharmeir/CLionProjects/ex4/adapters/SolverSearcherAdapter.h
 ../TextFunctions.h

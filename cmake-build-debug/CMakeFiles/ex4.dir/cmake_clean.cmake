@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ex4.dir/HeapSearcher.cpp.o"
   "CMakeFiles/ex4.dir/Matrix.cpp.o"
   "CMakeFiles/ex4.dir/Problems/MatrixProblem.cpp.o"
+  "CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.o"
+  "CMakeFiles/ex4.dir/Problems/ProblemCreator.cpp.o"
   "CMakeFiles/ex4.dir/Problems/StringSolution.cpp.o"
   "CMakeFiles/ex4.dir/Solution.cpp.o"
   "CMakeFiles/ex4.dir/State.cpp.o"

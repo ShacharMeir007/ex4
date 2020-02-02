@@ -343,6 +343,32 @@ CMakeFiles/ex4.dir/TextFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/TextFunctions.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shacharmeir/CLionProjects/ex4/TextFunctions.cpp -o CMakeFiles/ex4.dir/TextFunctions.cpp.s
 
+CMakeFiles/ex4.dir/Problems/ProblemCreator.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/Problems/ProblemCreator.cpp.o: ../Problems/ProblemCreator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/ex4.dir/Problems/ProblemCreator.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/Problems/ProblemCreator.cpp.o -c /Users/shacharmeir/CLionProjects/ex4/Problems/ProblemCreator.cpp
+
+CMakeFiles/ex4.dir/Problems/ProblemCreator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/Problems/ProblemCreator.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shacharmeir/CLionProjects/ex4/Problems/ProblemCreator.cpp > CMakeFiles/ex4.dir/Problems/ProblemCreator.cpp.i
+
+CMakeFiles/ex4.dir/Problems/ProblemCreator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/Problems/ProblemCreator.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shacharmeir/CLionProjects/ex4/Problems/ProblemCreator.cpp -o CMakeFiles/ex4.dir/Problems/ProblemCreator.cpp.s
+
+CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.o: CMakeFiles/ex4.dir/flags.make
+CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.o: ../Problems/MatrixProblemCreator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.o -c /Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblemCreator.cpp
+
+CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblemCreator.cpp > CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.i
+
+CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblemCreator.cpp -o CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.s
+
 # Object files for target ex4
 ex4_OBJECTS = \
 "CMakeFiles/ex4.dir/main.cpp.o" \
@@ -366,7 +392,9 @@ ex4_OBJECTS = \
 "CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o" \
 "CMakeFiles/ex4.dir/Problems/MatrixProblem.cpp.o" \
 "CMakeFiles/ex4.dir/Problems/StringSolution.cpp.o" \
-"CMakeFiles/ex4.dir/TextFunctions.cpp.o"
+"CMakeFiles/ex4.dir/TextFunctions.cpp.o" \
+"CMakeFiles/ex4.dir/Problems/ProblemCreator.cpp.o" \
+"CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.o"
 
 # External object files for target ex4
 ex4_EXTERNAL_OBJECTS =
@@ -393,9 +421,11 @@ ex4: CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o
 ex4: CMakeFiles/ex4.dir/Problems/MatrixProblem.cpp.o
 ex4: CMakeFiles/ex4.dir/Problems/StringSolution.cpp.o
 ex4: CMakeFiles/ex4.dir/TextFunctions.cpp.o
+ex4: CMakeFiles/ex4.dir/Problems/ProblemCreator.cpp.o
+ex4: CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.o
 ex4: CMakeFiles/ex4.dir/build.make
 ex4: CMakeFiles/ex4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable ex4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable ex4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

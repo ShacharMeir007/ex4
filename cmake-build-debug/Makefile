@@ -285,6 +285,60 @@ Problems/MatrixProblem.cpp.s:
 	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Problems/MatrixProblem.cpp.s
 .PHONY : Problems/MatrixProblem.cpp.s
 
+Problems/MatrixProblemCreator.o: Problems/MatrixProblemCreator.cpp.o
+
+.PHONY : Problems/MatrixProblemCreator.o
+
+# target to build an object file
+Problems/MatrixProblemCreator.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.o
+.PHONY : Problems/MatrixProblemCreator.cpp.o
+
+Problems/MatrixProblemCreator.i: Problems/MatrixProblemCreator.cpp.i
+
+.PHONY : Problems/MatrixProblemCreator.i
+
+# target to preprocess a source file
+Problems/MatrixProblemCreator.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.i
+.PHONY : Problems/MatrixProblemCreator.cpp.i
+
+Problems/MatrixProblemCreator.s: Problems/MatrixProblemCreator.cpp.s
+
+.PHONY : Problems/MatrixProblemCreator.s
+
+# target to generate assembly for a file
+Problems/MatrixProblemCreator.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.s
+.PHONY : Problems/MatrixProblemCreator.cpp.s
+
+Problems/ProblemCreator.o: Problems/ProblemCreator.cpp.o
+
+.PHONY : Problems/ProblemCreator.o
+
+# target to build an object file
+Problems/ProblemCreator.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Problems/ProblemCreator.cpp.o
+.PHONY : Problems/ProblemCreator.cpp.o
+
+Problems/ProblemCreator.i: Problems/ProblemCreator.cpp.i
+
+.PHONY : Problems/ProblemCreator.i
+
+# target to preprocess a source file
+Problems/ProblemCreator.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Problems/ProblemCreator.cpp.i
+.PHONY : Problems/ProblemCreator.cpp.i
+
+Problems/ProblemCreator.s: Problems/ProblemCreator.cpp.s
+
+.PHONY : Problems/ProblemCreator.s
+
+# target to generate assembly for a file
+Problems/ProblemCreator.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Problems/ProblemCreator.cpp.s
+.PHONY : Problems/ProblemCreator.cpp.s
+
 Problems/StringSolution.o: Problems/StringSolution.cpp.o
 
 .PHONY : Problems/StringSolution.o
@@ -744,6 +798,12 @@ help:
 	@echo "... Problems/MatrixProblem.o"
 	@echo "... Problems/MatrixProblem.i"
 	@echo "... Problems/MatrixProblem.s"
+	@echo "... Problems/MatrixProblemCreator.o"
+	@echo "... Problems/MatrixProblemCreator.i"
+	@echo "... Problems/MatrixProblemCreator.s"
+	@echo "... Problems/ProblemCreator.o"
+	@echo "... Problems/ProblemCreator.i"
+	@echo "... Problems/ProblemCreator.s"
 	@echo "... Problems/StringSolution.o"
 	@echo "... Problems/StringSolution.i"
 	@echo "... Problems/StringSolution.s"

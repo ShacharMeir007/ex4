@@ -42,6 +42,18 @@ CMakeFiles/ex4.dir/Problems/MatrixProblem.cpp.o: ../Problems/MatrixProblem.h
 CMakeFiles/ex4.dir/Problems/MatrixProblem.cpp.o: ../Searchable.h
 CMakeFiles/ex4.dir/Problems/MatrixProblem.cpp.o: ../State.h
 
+CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.o: ../Matrix.h
+CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.o: ../Problems/MatrixProblem.h
+CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.o: ../Problems/MatrixProblemCreator.cpp
+CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.o: ../Problems/MatrixProblemCreator.h
+CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.o: ../Problems/ProblemCreator.h
+CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.o: ../Searchable.h
+CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.o: ../State.h
+CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.o: ../TextFunctions.h
+
+CMakeFiles/ex4.dir/Problems/ProblemCreator.cpp.o: ../Problems/ProblemCreator.cpp
+CMakeFiles/ex4.dir/Problems/ProblemCreator.cpp.o: ../Problems/ProblemCreator.h
+
 CMakeFiles/ex4.dir/Problems/StringSolution.cpp.o: ../Problems/StringSolution.cpp
 CMakeFiles/ex4.dir/Problems/StringSolution.cpp.o: ../Problems/StringSolution.h
 
@@ -73,6 +85,7 @@ CMakeFiles/ex4.dir/main.cpp.o: ../Heap.h
 CMakeFiles/ex4.dir/main.cpp.o: ../HeapSearcher.h
 CMakeFiles/ex4.dir/main.cpp.o: ../Matrix.h
 CMakeFiles/ex4.dir/main.cpp.o: ../Problems/MatrixProblem.h
+CMakeFiles/ex4.dir/main.cpp.o: ../Problems/ProblemCreator.h
 CMakeFiles/ex4.dir/main.cpp.o: ../Problems/StringSolution.h
 CMakeFiles/ex4.dir/main.cpp.o: ../Searchable.h
 CMakeFiles/ex4.dir/main.cpp.o: ../Searcher.h
@@ -109,6 +122,8 @@ CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../Heap.h
 CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../HeapSearcher.h
 CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../Matrix.h
 CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../Problems/MatrixProblem.h
+CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../Problems/MatrixProblemCreator.h
+CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../Problems/ProblemCreator.h
 CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../Problems/StringSolution.h
 CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../Searchable.h
 CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../Searcher.h
@@ -143,6 +158,7 @@ CMakeFiles/ex4.dir/server_side/MySerialServer.cpp.o: ../server_side/Server.h
 
 CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o: ../Matrix.h
 CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o: ../Problems/MatrixProblem.h
+CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o: ../Problems/ProblemCreator.h
 CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o: ../Problems/StringSolution.h
 CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o: ../Searchable.h
 CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o: ../Searcher.h
