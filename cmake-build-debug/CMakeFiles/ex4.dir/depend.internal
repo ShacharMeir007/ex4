@@ -51,10 +51,10 @@ CMakeFiles/ex4.dir/Solution.cpp.o
 CMakeFiles/ex4.dir/State.cpp.o
  /Users/shacharmeir/CLionProjects/ex4/State.cpp
  /Users/shacharmeir/CLionProjects/ex4/State.h
+CMakeFiles/ex4.dir/TextFunctions.cpp.o
+ /Users/shacharmeir/CLionProjects/ex4/TextFunctions.cpp
+ /Users/shacharmeir/CLionProjects/ex4/TextFunctions.h
 CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o
- /Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.h
- /Users/shacharmeir/CLionProjects/ex4/Heap.h
- /Users/shacharmeir/CLionProjects/ex4/HeapSearcher.h
  /Users/shacharmeir/CLionProjects/ex4/Matrix.h
  /Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblem.h
  /Users/shacharmeir/CLionProjects/ex4/Problems/StringSolution.h
@@ -68,6 +68,19 @@ CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o
  /Users/shacharmeir/CLionProjects/ex4/server_side/FileCacheManager.h
  /Users/shacharmeir/CLionProjects/ex4/server_side/Solver.h
 CMakeFiles/ex4.dir/main.cpp.o
+ /Users/shacharmeir/CLionProjects/ex4/AStar.h
+ /Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.h
+ /Users/shacharmeir/CLionProjects/ex4/Heap.h
+ /Users/shacharmeir/CLionProjects/ex4/HeapSearcher.h
+ /Users/shacharmeir/CLionProjects/ex4/Matrix.h
+ /Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblem.h
+ /Users/shacharmeir/CLionProjects/ex4/Problems/StringSolution.h
+ /Users/shacharmeir/CLionProjects/ex4/Searchable.h
+ /Users/shacharmeir/CLionProjects/ex4/Searcher.h
+ /Users/shacharmeir/CLionProjects/ex4/Solution.h
+ /Users/shacharmeir/CLionProjects/ex4/State.h
+ /Users/shacharmeir/CLionProjects/ex4/TextFunctions.h
+ /Users/shacharmeir/CLionProjects/ex4/adapters/SolverSearcherAdapter.h
  /Users/shacharmeir/CLionProjects/ex4/main.cpp
  /Users/shacharmeir/CLionProjects/ex4/server_side/CacheManager.h
  /Users/shacharmeir/CLionProjects/ex4/server_side/ClientHandler.h
@@ -91,6 +104,19 @@ CMakeFiles/ex4.dir/server_side/FileCacheManager.cpp.o
  /Users/shacharmeir/CLionProjects/ex4/server_side/FileCacheManager.cpp
  /Users/shacharmeir/CLionProjects/ex4/server_side/FileCacheManager.h
 CMakeFiles/ex4.dir/server_side/Main.cpp.o
+ /Users/shacharmeir/CLionProjects/ex4/AStar.h
+ /Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.h
+ /Users/shacharmeir/CLionProjects/ex4/Heap.h
+ /Users/shacharmeir/CLionProjects/ex4/HeapSearcher.h
+ /Users/shacharmeir/CLionProjects/ex4/Matrix.h
+ /Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblem.h
+ /Users/shacharmeir/CLionProjects/ex4/Problems/StringSolution.h
+ /Users/shacharmeir/CLionProjects/ex4/Searchable.h
+ /Users/shacharmeir/CLionProjects/ex4/Searcher.h
+ /Users/shacharmeir/CLionProjects/ex4/Solution.h
+ /Users/shacharmeir/CLionProjects/ex4/State.h
+ /Users/shacharmeir/CLionProjects/ex4/TextFunctions.h
+ /Users/shacharmeir/CLionProjects/ex4/adapters/SolverSearcherAdapter.h
  /Users/shacharmeir/CLionProjects/ex4/server_side/CacheManager.h
  /Users/shacharmeir/CLionProjects/ex4/server_side/ClientHandler.h
  /Users/shacharmeir/CLionProjects/ex4/server_side/FileCacheManager.h
@@ -120,8 +146,10 @@ CMakeFiles/ex4.dir/server_side/MyTestClientHandler.cpp.o
  /Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblem.h
  /Users/shacharmeir/CLionProjects/ex4/Problems/StringSolution.h
  /Users/shacharmeir/CLionProjects/ex4/Searchable.h
+ /Users/shacharmeir/CLionProjects/ex4/Searcher.h
  /Users/shacharmeir/CLionProjects/ex4/Solution.h
  /Users/shacharmeir/CLionProjects/ex4/State.h
+ /Users/shacharmeir/CLionProjects/ex4/TextFunctions.h
  /Users/shacharmeir/CLionProjects/ex4/adapters/SolverSearcherAdapter.h
  /Users/shacharmeir/CLionProjects/ex4/server_side/CacheManager.h
  /Users/shacharmeir/CLionProjects/ex4/server_side/ClientHandler.h

@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ex4.dir/Problems/StringSolution.cpp.o"
   "CMakeFiles/ex4.dir/Solution.cpp.o"
   "CMakeFiles/ex4.dir/State.cpp.o"
+  "CMakeFiles/ex4.dir/TextFunctions.cpp.o"
   "CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o"
   "CMakeFiles/ex4.dir/main.cpp.o"
   "CMakeFiles/ex4.dir/server_side/CacheManager.cpp.o"

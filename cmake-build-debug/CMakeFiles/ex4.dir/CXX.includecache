@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/Users/shacharmeir/CLionProjects/ex4/AStar.cpp
+unordered_set
+-
+AStar.h
+/Users/shacharmeir/CLionProjects/ex4/AStar.h
+
+/Users/shacharmeir/CLionProjects/ex4/AStar.h
+HeapSearcher.h
+/Users/shacharmeir/CLionProjects/ex4/HeapSearcher.h
+
+/Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.cpp
+BestFirstSearch.h
+/Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.h
+
 /Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.h
 HeapSearcher.h
 /Users/shacharmeir/CLionProjects/ex4/HeapSearcher.h
@@ -26,6 +40,10 @@ iostream
 State.h
 /Users/shacharmeir/CLionProjects/ex4/State.h
 
+/Users/shacharmeir/CLionProjects/ex4/HeapSearcher.cpp
+HeapSearcher.h
+/Users/shacharmeir/CLionProjects/ex4/HeapSearcher.h
+
 /Users/shacharmeir/CLionProjects/ex4/HeapSearcher.h
 Searcher.h
 /Users/shacharmeir/CLionProjects/ex4/Searcher.h
@@ -36,17 +54,11 @@ Heap.h
 Searchable.h
 /Users/shacharmeir/CLionProjects/ex4/Searchable.h
 
-/Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblem.cpp
-MatrixProblem.h
 /Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblem.h
-
-/Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblem.h
+string
+-
 ../Matrix.h
 /Users/shacharmeir/CLionProjects/ex4/Matrix.h
-
-/Users/shacharmeir/CLionProjects/ex4/Problems/StringSolution.cpp
-StringSolution.h
-/Users/shacharmeir/CLionProjects/ex4/Problems/StringSolution.h
 
 /Users/shacharmeir/CLionProjects/ex4/Problems/StringSolution.h
 string
@@ -72,11 +84,11 @@ Searchable.h
 
 /Users/shacharmeir/CLionProjects/ex4/State.h
 
-/Users/shacharmeir/CLionProjects/ex4/adapters/SolverSearcherAdapter.cpp
-SolverSearcherAdapter.h
-/Users/shacharmeir/CLionProjects/ex4/adapters/SolverSearcherAdapter.h
-../BestFirstSearch.h
-/Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.h
+/Users/shacharmeir/CLionProjects/ex4/TextFunctions.h
+string
+-
+vector
+-
 
 /Users/shacharmeir/CLionProjects/ex4/adapters/SolverSearcherAdapter.h
 ../Matrix.h
@@ -91,6 +103,8 @@ SolverSearcherAdapter.h
 /Users/shacharmeir/CLionProjects/ex4/Problems/StringSolution.h
 ../server_side/FileCacheManager.h
 /Users/shacharmeir/CLionProjects/ex4/server_side/FileCacheManager.h
+../Searcher.h
+/Users/shacharmeir/CLionProjects/ex4/Searcher.h
 
 /Users/shacharmeir/CLionProjects/ex4/main.cpp
 iostream
@@ -107,10 +121,6 @@ string
 -
 CacheManager.h
 /Users/shacharmeir/CLionProjects/ex4/server_side/CacheManager.h
-
-/Users/shacharmeir/CLionProjects/ex4/server_side/FileCacheManager.cpp
-FileCacheManager.h
-/Users/shacharmeir/CLionProjects/ex4/server_side/FileCacheManager.h
 
 /Users/shacharmeir/CLionProjects/ex4/server_side/FileCacheManager.h
 CacheManager.h
@@ -143,6 +153,14 @@ MyParallelServer.h
 /Users/shacharmeir/CLionProjects/ex4/server_side/MyParallelServer.h
 MyTestClientHandler.h
 /Users/shacharmeir/CLionProjects/ex4/server_side/MyTestClientHandler.h
+../Problems/MatrixProblem.h
+/Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblem.h
+../Problems/StringSolution.h
+/Users/shacharmeir/CLionProjects/ex4/Problems/StringSolution.h
+../BestFirstSearch.h
+/Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.h
+../AStar.h
+/Users/shacharmeir/CLionProjects/ex4/AStar.h
 
 /Users/shacharmeir/CLionProjects/ex4/server_side/MyParallelServer.h
 Server.h
@@ -174,16 +192,6 @@ unistd.h
 thread
 -
 
-/Users/shacharmeir/CLionProjects/ex4/server_side/MyTestClientHandler.cpp
-MyTestClientHandler.h
-/Users/shacharmeir/CLionProjects/ex4/server_side/MyTestClientHandler.h
-../Matrix.h
-/Users/shacharmeir/CLionProjects/ex4/Matrix.h
-../Problems/MatrixProblem.h
-/Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblem.h
-../adapters/SolverSearcherAdapter.h
-/Users/shacharmeir/CLionProjects/ex4/adapters/SolverSearcherAdapter.h
-
 /Users/shacharmeir/CLionProjects/ex4/server_side/MyTestClientHandler.h
 ClientHandler.h
 /Users/shacharmeir/CLionProjects/ex4/server_side/ClientHandler.h
@@ -203,6 +211,14 @@ arpa/inet.h
 -
 vector
 -
+../Matrix.h
+/Users/shacharmeir/CLionProjects/ex4/Matrix.h
+../Problems/MatrixProblem.h
+/Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblem.h
+../adapters/SolverSearcherAdapter.h
+/Users/shacharmeir/CLionProjects/ex4/adapters/SolverSearcherAdapter.h
+../TextFunctions.h
+/Users/shacharmeir/CLionProjects/ex4/TextFunctions.h
 
 /Users/shacharmeir/CLionProjects/ex4/server_side/Server.h
 ClientHandler.h

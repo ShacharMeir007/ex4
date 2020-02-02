@@ -19,3 +19,17 @@ std::pair<int, int> &MatrixProblem::GetStartPoint()  {
 std::pair<int, int> &MatrixProblem::GetEndPoint()  {
   return end_point;
 }
+std::string MatrixProblem::toString() {
+  std::string word;
+  int size = matrix.GetN();
+  for (int kI = 0; kI < size ; ++kI) {
+    for (int kJ = 0; kJ < size; ++kJ) {
+      word+= matrix.getElement(kI,kJ);
+    }
+  }
+  word+= std::to_string(start_point.first);
+  word+= std::to_string(start_point.second);
+  word+= std::to_string(end_point.first);
+  word+= std::to_string(end_point.second);
+  return word ;
+}

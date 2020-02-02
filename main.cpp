@@ -3,11 +3,12 @@
 #include "server_side/Main.h"
 
 int main(int argc,char* argv[]) {
+  int port;
   if (argc != 2){
-    return 1;
+    port = 5600;
+  } else {
+    port = atoi(argv[1]);
   }
-  int port = atoi(argv[1]);
-  server_side::Main main1;
-  main1.main(port);
+  server_side::Main::main(port);
   return 0;
 }

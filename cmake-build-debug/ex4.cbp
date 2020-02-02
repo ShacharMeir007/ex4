@@ -140,6 +140,12 @@
 		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/State.h">
 			<Option target="ex4"/>
 		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/TextFunctions.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/TextFunctions.h">
+			<Option target="ex4"/>
+		</Unit>
 		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/adapters/SolverSearcherAdapter.cpp">
 			<Option target="ex4"/>
 		</Unit>

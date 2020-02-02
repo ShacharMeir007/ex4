@@ -366,6 +366,33 @@ State.cpp.s:
 	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/State.cpp.s
 .PHONY : State.cpp.s
 
+TextFunctions.o: TextFunctions.cpp.o
+
+.PHONY : TextFunctions.o
+
+# target to build an object file
+TextFunctions.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/TextFunctions.cpp.o
+.PHONY : TextFunctions.cpp.o
+
+TextFunctions.i: TextFunctions.cpp.i
+
+.PHONY : TextFunctions.i
+
+# target to preprocess a source file
+TextFunctions.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/TextFunctions.cpp.i
+.PHONY : TextFunctions.cpp.i
+
+TextFunctions.s: TextFunctions.cpp.s
+
+.PHONY : TextFunctions.s
+
+# target to generate assembly for a file
+TextFunctions.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/TextFunctions.cpp.s
+.PHONY : TextFunctions.cpp.s
+
 adapters/SolverSearcherAdapter.o: adapters/SolverSearcherAdapter.cpp.o
 
 .PHONY : adapters/SolverSearcherAdapter.o
@@ -726,6 +753,9 @@ help:
 	@echo "... State.o"
 	@echo "... State.i"
 	@echo "... State.s"
+	@echo "... TextFunctions.o"
+	@echo "... TextFunctions.i"
+	@echo "... TextFunctions.s"
 	@echo "... adapters/SolverSearcherAdapter.o"
 	@echo "... adapters/SolverSearcherAdapter.i"
 	@echo "... adapters/SolverSearcherAdapter.s"

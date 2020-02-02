@@ -14,24 +14,24 @@ class HeapSearcher : public Searcher<T> {
   int evaluateNods = 0;
 
  public:
-  int openListSize();
+  int openHeapSize();
   int getNumberOfNodesEvaluated() override;
 
  protected:
-  State<T> popOpenList();
-  void addOpenList(State<T> element);
-  bool openListContains(State<T> element);
+  State<T> popOpenHeap();
+  void addOpenHeap(State<T> element);
+  bool openHeapContains(State<T> element);
   State<T> &getElement(State<T> element);
-  void updateOpenList();
+  void updateOpenHeap();
   Solution<std::list<State<T>>> backTrace(const State<T> *goal);
 };
 template<typename T>
-int HeapSearcher<T>::openListSize() {
+int HeapSearcher<T>::openHeapSize() {
   return heap.size();
 }
 
 template<typename T>
-State<T> HeapSearcher<T>::popOpenList() {
+State<T> HeapSearcher<T>::popOpenHeap() {
   evaluateNods++;
   State<T> u = heap.top();
   heap.pop();
@@ -45,13 +45,13 @@ int HeapSearcher<T>::getNumberOfNodesEvaluated() {
 }
 
 template<typename T>
-void HeapSearcher<T>::addOpenList(State<T> element) {
+void HeapSearcher<T>::addOpenHeap(State<T> element) {
   heap.push(element);
   heap.print();
 }
 
 template<typename T>
-bool HeapSearcher<T>::openListContains(State<T> element) {
+bool HeapSearcher<T>::openHeapContains(State<T> element) {
   return heap.contains(element);
 }
 
@@ -61,7 +61,7 @@ State<T> &HeapSearcher<T>::getElement(State<T> element) {
 }
 
 template<typename T>
-void HeapSearcher<T>::updateOpenList() {
+void HeapSearcher<T>::updateOpenHeap() {
   heap.update();
   heap.print();
 }

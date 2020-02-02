@@ -14,7 +14,13 @@ class FileCacheManager : public CacheManager<P,S> {
  public:
   unsigned long name_hash(P problem) {
     std::hash<std::string> hash;
-    unsigned long hashed = hash(problem);
+    unsigned long hashed;
+    try {
+      hashed = hash(problem.toString());
+    } catch (std::exception& e){
+      //hashed = hash(problem);
+    }
+
     return hashed;
   }
   bool is_in_cache(P problem) override {

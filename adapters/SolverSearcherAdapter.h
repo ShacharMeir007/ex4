@@ -11,10 +11,15 @@
 #include "../Problems/MatrixProblem.h"
 #include "../Problems/StringSolution.h"
 #include "../server_side/FileCacheManager.h"
+#include "../Searcher.h"
 class SolverSearcherAdapter: public server_side::Solver<MatrixProblem,StringSolution> {
+ private:
+  Searcher<int>* searcher_;
  public:
+  explicit SolverSearcherAdapter(Searcher<int> *searcher);
   StringSolution solve(MatrixProblem problem) override;
 
+  std::string path_to_string(Solution<std::list<State<int>>> solution);
 };
 
 #endif //EX4_ADAPTERS_SOLVERSEARCHERADAPTER_H_

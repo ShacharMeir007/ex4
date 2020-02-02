@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/shacharmeir/CLionProjects/ex4/Problems/StringSolution.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/Problems/StringSolution.cpp.o"
   "/Users/shacharmeir/CLionProjects/ex4/Solution.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/Solution.cpp.o"
   "/Users/shacharmeir/CLionProjects/ex4/State.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/State.cpp.o"
+  "/Users/shacharmeir/CLionProjects/ex4/TextFunctions.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/TextFunctions.cpp.o"
   "/Users/shacharmeir/CLionProjects/ex4/adapters/SolverSearcherAdapter.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o"
   "/Users/shacharmeir/CLionProjects/ex4/main.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/main.cpp.o"
   "/Users/shacharmeir/CLionProjects/ex4/server_side/CacheManager.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/server_side/CacheManager.cpp.o"

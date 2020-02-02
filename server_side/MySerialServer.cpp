@@ -16,6 +16,7 @@ void server_side::MySerialServer::open(int port,ClientHandler* c) {
 }
 
 void server_side::MySerialServer::run(int port, ClientHandler *c) {
+
   int socketfd = socket(AF_INET, SOCK_STREAM,0);
   if (socketfd == -1){
     std::cerr<<"can't create socket"<<std::endl;
@@ -25,10 +26,12 @@ void server_side::MySerialServer::run(int port, ClientHandler *c) {
   timeval tv;
   tv.tv_sec = 10;
   setsockopt(socketfd,SOL_SOCKET,SO_RCVTIMEO,(const char*)&tv, sizeof(tv));
+
   sockaddr_in address;
   address.sin_family = AF_INET;
   address.sin_addr.s_addr = INADDR_ANY;
   address.sin_port = htons(port);
+
   if (::bind(socketfd, (struct sockaddr *) &address, sizeof(address)) == -1) {
     std::cerr<<"Could not bind the socket to an IP"<<std::endl;
     return;

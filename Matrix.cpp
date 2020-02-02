@@ -48,8 +48,8 @@ double Matrix::getElement(int i, int j) {
 }
 
 Matrix::~Matrix() {
-  free(matrix);
-  free(this);
+  //free(matrix);
+  //free(this);
 }
 std::list<State<int>> Matrix::getAllPossibleStates(State<int> s) {
   std::list<State<int>> list;

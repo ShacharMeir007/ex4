@@ -12,10 +12,14 @@
 #include "MySerialServer.h"
 #include "MyParallelServer.h"
 #include "MyTestClientHandler.h"
+#include "../Problems/MatrixProblem.h"
+#include "../Problems/StringSolution.h"
+#include "../BestFirstSearch.h"
+#include "../AStar.h"
 namespace server_side {
 class Main {
  public:
-  int main(int port);
+  static int main(int port);
 };
 }
 #endif //EX4_SERVER_SIDE_MAIN_H_
