@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/ex4.dir/AStar.cpp.o"
   "CMakeFiles/ex4.dir/BestFirstSearch.cpp.o"
   "CMakeFiles/ex4.dir/Heap.cpp.o"
-  "CMakeFiles/ex4.dir/HeapSearcher.cpp.o"
   "CMakeFiles/ex4.dir/Matrix.cpp.o"
   "CMakeFiles/ex4.dir/Problems/MatrixProblem.cpp.o"
   "CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.o"

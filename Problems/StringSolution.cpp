@@ -3,7 +3,9 @@
 //
 
 #include "StringSolution.h"
-StringSolution::StringSolution(const std::string &solution) : solution(solution) {}
+StringSolution::StringSolution(std::string& solution) :
+solution(solution) {}
  std::string &StringSolution::GetSolution()  {
   return solution;
 }
+//StringSolution::StringSolution() = default;

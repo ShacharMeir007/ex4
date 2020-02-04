@@ -4,32 +4,23 @@
 CMakeFiles/ex4.dir/AStar.cpp.o: ../AStar.cpp
 CMakeFiles/ex4.dir/AStar.cpp.o: ../AStar.h
 CMakeFiles/ex4.dir/AStar.cpp.o: ../Heap.h
-CMakeFiles/ex4.dir/AStar.cpp.o: ../HeapSearcher.h
 CMakeFiles/ex4.dir/AStar.cpp.o: ../Searchable.h
 CMakeFiles/ex4.dir/AStar.cpp.o: ../Searcher.h
-CMakeFiles/ex4.dir/AStar.cpp.o: ../Solution.h
 CMakeFiles/ex4.dir/AStar.cpp.o: ../State.h
+CMakeFiles/ex4.dir/AStar.cpp.o: ../StateComparator.h
+CMakeFiles/ex4.dir/AStar.cpp.o: ../StatePointerComparator.h
 
 CMakeFiles/ex4.dir/BestFirstSearch.cpp.o: ../BestFirstSearch.cpp
 CMakeFiles/ex4.dir/BestFirstSearch.cpp.o: ../BestFirstSearch.h
 CMakeFiles/ex4.dir/BestFirstSearch.cpp.o: ../Heap.h
-CMakeFiles/ex4.dir/BestFirstSearch.cpp.o: ../HeapSearcher.h
 CMakeFiles/ex4.dir/BestFirstSearch.cpp.o: ../Searchable.h
 CMakeFiles/ex4.dir/BestFirstSearch.cpp.o: ../Searcher.h
-CMakeFiles/ex4.dir/BestFirstSearch.cpp.o: ../Solution.h
 CMakeFiles/ex4.dir/BestFirstSearch.cpp.o: ../State.h
+CMakeFiles/ex4.dir/BestFirstSearch.cpp.o: ../StateComparator.h
 
 CMakeFiles/ex4.dir/Heap.cpp.o: ../Heap.cpp
 CMakeFiles/ex4.dir/Heap.cpp.o: ../Heap.h
 CMakeFiles/ex4.dir/Heap.cpp.o: ../State.h
-
-CMakeFiles/ex4.dir/HeapSearcher.cpp.o: ../Heap.h
-CMakeFiles/ex4.dir/HeapSearcher.cpp.o: ../HeapSearcher.cpp
-CMakeFiles/ex4.dir/HeapSearcher.cpp.o: ../HeapSearcher.h
-CMakeFiles/ex4.dir/HeapSearcher.cpp.o: ../Searchable.h
-CMakeFiles/ex4.dir/HeapSearcher.cpp.o: ../Searcher.h
-CMakeFiles/ex4.dir/HeapSearcher.cpp.o: ../Solution.h
-CMakeFiles/ex4.dir/HeapSearcher.cpp.o: ../State.h
 
 CMakeFiles/ex4.dir/Matrix.cpp.o: ../Matrix.cpp
 CMakeFiles/ex4.dir/Matrix.cpp.o: ../Matrix.h
@@ -82,7 +73,6 @@ CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o: ../server_side/Solver.h
 CMakeFiles/ex4.dir/main.cpp.o: ../AStar.h
 CMakeFiles/ex4.dir/main.cpp.o: ../BestFirstSearch.h
 CMakeFiles/ex4.dir/main.cpp.o: ../Heap.h
-CMakeFiles/ex4.dir/main.cpp.o: ../HeapSearcher.h
 CMakeFiles/ex4.dir/main.cpp.o: ../Matrix.h
 CMakeFiles/ex4.dir/main.cpp.o: ../Problems/MatrixProblem.h
 CMakeFiles/ex4.dir/main.cpp.o: ../Problems/ProblemCreator.h
@@ -91,6 +81,8 @@ CMakeFiles/ex4.dir/main.cpp.o: ../Searchable.h
 CMakeFiles/ex4.dir/main.cpp.o: ../Searcher.h
 CMakeFiles/ex4.dir/main.cpp.o: ../Solution.h
 CMakeFiles/ex4.dir/main.cpp.o: ../State.h
+CMakeFiles/ex4.dir/main.cpp.o: ../StateComparator.h
+CMakeFiles/ex4.dir/main.cpp.o: ../StatePointerComparator.h
 CMakeFiles/ex4.dir/main.cpp.o: ../TextFunctions.h
 CMakeFiles/ex4.dir/main.cpp.o: ../adapters/SolverSearcherAdapter.h
 CMakeFiles/ex4.dir/main.cpp.o: ../main.cpp
@@ -119,7 +111,6 @@ CMakeFiles/ex4.dir/server_side/FileCacheManager.cpp.o: ../server_side/FileCacheM
 CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../AStar.h
 CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../BestFirstSearch.h
 CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../Heap.h
-CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../HeapSearcher.h
 CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../Matrix.h
 CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../Problems/MatrixProblem.h
 CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../Problems/MatrixProblemCreator.h
@@ -129,6 +120,8 @@ CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../Searchable.h
 CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../Searcher.h
 CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../Solution.h
 CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../State.h
+CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../StateComparator.h
+CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../StatePointerComparator.h
 CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../TextFunctions.h
 CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../adapters/SolverSearcherAdapter.h
 CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../server_side/CacheManager.h

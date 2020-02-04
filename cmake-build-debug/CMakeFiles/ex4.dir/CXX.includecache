@@ -7,16 +7,28 @@
 #IncludeRegexTransform: 
 
 /Users/shacharmeir/CLionProjects/ex4/AStar.h
-HeapSearcher.h
-/Users/shacharmeir/CLionProjects/ex4/HeapSearcher.h
-
-/Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.h
-HeapSearcher.h
-/Users/shacharmeir/CLionProjects/ex4/HeapSearcher.h
-unordered_set
--
 set
 -
+queue
+-
+StateComparator.h
+/Users/shacharmeir/CLionProjects/ex4/StateComparator.h
+Searcher.h
+/Users/shacharmeir/CLionProjects/ex4/Searcher.h
+Heap.h
+/Users/shacharmeir/CLionProjects/ex4/Heap.h
+StatePointerComparator.h
+/Users/shacharmeir/CLionProjects/ex4/StatePointerComparator.h
+
+/Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.h
+queue
+-
+Searcher.h
+/Users/shacharmeir/CLionProjects/ex4/Searcher.h
+Heap.h
+/Users/shacharmeir/CLionProjects/ex4/Heap.h
+StateComparator.h
+/Users/shacharmeir/CLionProjects/ex4/StateComparator.h
 
 /Users/shacharmeir/CLionProjects/ex4/Heap.h
 algorithm
@@ -30,12 +42,6 @@ iostream
 State.h
 /Users/shacharmeir/CLionProjects/ex4/State.h
 
-/Users/shacharmeir/CLionProjects/ex4/HeapSearcher.h
-Searcher.h
-/Users/shacharmeir/CLionProjects/ex4/Searcher.h
-Heap.h
-/Users/shacharmeir/CLionProjects/ex4/Heap.h
-
 /Users/shacharmeir/CLionProjects/ex4/Matrix.h
 Searchable.h
 /Users/shacharmeir/CLionProjects/ex4/Searchable.h
@@ -45,10 +51,6 @@ string
 -
 ../Matrix.h
 /Users/shacharmeir/CLionProjects/ex4/Matrix.h
-
-/Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblemCreator.cpp
-MatrixProblemCreator.h
-/Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblemCreator.h
 
 /Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblemCreator.h
 string
@@ -62,10 +64,6 @@ ProblemCreator.h
 ../TextFunctions.h
 /Users/shacharmeir/CLionProjects/ex4/TextFunctions.h
 
-/Users/shacharmeir/CLionProjects/ex4/Problems/ProblemCreator.cpp
-ProblemCreator.h
-/Users/shacharmeir/CLionProjects/ex4/Problems/ProblemCreator.h
-
 /Users/shacharmeir/CLionProjects/ex4/Problems/ProblemCreator.h
 
 /Users/shacharmeir/CLionProjects/ex4/Problems/StringSolution.h
@@ -73,18 +71,18 @@ string
 -
 
 /Users/shacharmeir/CLionProjects/ex4/Searchable.h
+vector
+-
 list
 -
 State.h
 /Users/shacharmeir/CLionProjects/ex4/State.h
 
 /Users/shacharmeir/CLionProjects/ex4/Searcher.h
-list
--
 State.h
 /Users/shacharmeir/CLionProjects/ex4/State.h
-Solution.h
-/Users/shacharmeir/CLionProjects/ex4/Solution.h
+list
+-
 Searchable.h
 /Users/shacharmeir/CLionProjects/ex4/Searchable.h
 
@@ -92,11 +90,23 @@ Searchable.h
 
 /Users/shacharmeir/CLionProjects/ex4/State.h
 
+/Users/shacharmeir/CLionProjects/ex4/StateComparator.h
+State.h
+/Users/shacharmeir/CLionProjects/ex4/State.h
+
+/Users/shacharmeir/CLionProjects/ex4/StatePointerComparator.h
+State.h
+/Users/shacharmeir/CLionProjects/ex4/State.h
+
 /Users/shacharmeir/CLionProjects/ex4/TextFunctions.h
 string
 -
 vector
 -
+
+/Users/shacharmeir/CLionProjects/ex4/adapters/SolverSearcherAdapter.cpp
+SolverSearcherAdapter.h
+/Users/shacharmeir/CLionProjects/ex4/adapters/SolverSearcherAdapter.h
 
 /Users/shacharmeir/CLionProjects/ex4/adapters/SolverSearcherAdapter.h
 ../Matrix.h
@@ -129,6 +139,10 @@ string
 -
 CacheManager.h
 /Users/shacharmeir/CLionProjects/ex4/server_side/CacheManager.h
+
+/Users/shacharmeir/CLionProjects/ex4/server_side/FileCacheManager.cpp
+FileCacheManager.h
+/Users/shacharmeir/CLionProjects/ex4/server_side/FileCacheManager.h
 
 /Users/shacharmeir/CLionProjects/ex4/server_side/FileCacheManager.h
 CacheManager.h

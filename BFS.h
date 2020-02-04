@@ -1,24 +1,23 @@
 //
-// Created by shachar Meir on 04/02/2020.
+// Created by shachar Meir on 03/02/2020.
 //
 
-#ifndef TEST__BESTFIRSTSEARCH_H_
-#define TEST__BESTFIRSTSEARCH_H_
+#ifndef TEST__BFS_H_
+#define TEST__BFS_H_
 #include <queue>
 #include "Searcher.h"
 #include "Heap.h"
-#include "StateComparator.h"
 template <typename T>
-class BestFirstSearch: public Searcher<T> {
+class BFS: public Searcher<T> {
  public:
-  std::list<State<T> *> search(Searchable<T> *searchable) override {
+  std::list<State<T>*> search(Searchable<T> *searchable) override {
     searchable->reset();
-    std::priority_queue <State<T>, std::vector<State<T>>, StateComparator<T>>min_heap;
+    std::queue<State<T>*> queue;
     State<T>* start = searchable->getInitialState();
-    min_heap.push(*start);
-    while (!min_heap.empty()){
-      State<T>* next = new State<T>(min_heap.top());
-      min_heap.pop();
+    queue.push(start);
+    while (!queue.empty()){
+      State<T>* next = queue.front();
+      queue.pop();
       if (searchable->isGoal(next)){
         auto path = this->backTracePath(next);
         searchable->reset();
@@ -28,7 +27,7 @@ class BestFirstSearch: public Searcher<T> {
       for (State<T>* neighbor: neighbors){
         if (neighbor->GetCameFrom() == nullptr){
           neighbor->SetCameFrom(next);
-          min_heap.push(*neighbor);
+          queue.push(neighbor);
         }
         if (searchable->isGoal(neighbor)){
           auto path = this->backTracePath(neighbor);
@@ -37,13 +36,12 @@ class BestFirstSearch: public Searcher<T> {
         }
       }
     }
-
-    return std::list<State<T> *>();
+    return std::list<State<T>*>();
   }
+
   int getNumberOfNodesEvaluated() override {
     return 0;
   }
-
 };
 
-#endif //TEST__BESTFIRSTSEARCH_H_
+#endif //TEST__BFS_H_

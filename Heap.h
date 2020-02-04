@@ -16,7 +16,7 @@ class Heap {
   std::vector<T> heap;
 
  public:
-  Heap() {std::make_heap(heap.begin(), heap.end(), std::greater<T>());};
+  Heap() {std::make_heap(heap.begin(), heap.end(), std::less<T>());};
   void push(T element);
   T top();
   void pop();
@@ -25,11 +25,13 @@ class Heap {
   bool contains(T element);
   T & find(T element);
   void print();
+  bool empty();
 };
 template<typename T>
 void Heap<T>::push(T element) {
   heap.push_back(element);
-  std::push_heap(heap.begin(), heap.end(), std::greater<T>());
+  std::push_heap(heap.begin(), heap.end(), std::less<T>());
+  std::make_heap(heap.begin(), heap.end(), std::less<T>());
 }
 
 template<typename T>
@@ -68,6 +70,10 @@ void Heap<T>::print() {
     std::cout << v.GetState() << " ";
   }
   std::cout << std::endl;
+}
+template<class T>
+bool Heap<T>::empty() {
+  return this->size() == 0;
 }
 
 #endif //EX4_ALGORITHMS_HEAP_H_

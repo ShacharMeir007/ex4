@@ -204,33 +204,6 @@ Heap.cpp.s:
 	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/Heap.cpp.s
 .PHONY : Heap.cpp.s
 
-HeapSearcher.o: HeapSearcher.cpp.o
-
-.PHONY : HeapSearcher.o
-
-# target to build an object file
-HeapSearcher.cpp.o:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/HeapSearcher.cpp.o
-.PHONY : HeapSearcher.cpp.o
-
-HeapSearcher.i: HeapSearcher.cpp.i
-
-.PHONY : HeapSearcher.i
-
-# target to preprocess a source file
-HeapSearcher.cpp.i:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/HeapSearcher.cpp.i
-.PHONY : HeapSearcher.cpp.i
-
-HeapSearcher.s: HeapSearcher.cpp.s
-
-.PHONY : HeapSearcher.s
-
-# target to generate assembly for a file
-HeapSearcher.cpp.s:
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/HeapSearcher.cpp.s
-.PHONY : HeapSearcher.cpp.s
-
 Matrix.o: Matrix.cpp.o
 
 .PHONY : Matrix.o
@@ -789,9 +762,6 @@ help:
 	@echo "... Heap.o"
 	@echo "... Heap.i"
 	@echo "... Heap.s"
-	@echo "... HeapSearcher.o"
-	@echo "... HeapSearcher.i"
-	@echo "... HeapSearcher.s"
 	@echo "... Matrix.o"
 	@echo "... Matrix.i"
 	@echo "... Matrix.s"

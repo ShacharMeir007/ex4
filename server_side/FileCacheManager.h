@@ -30,11 +30,14 @@ class FileCacheManager : public CacheManager<P,S> {
   }
   S pull_from_cache(P problem) override {
     unsigned long name = name_hash(problem);
-    std::fstream in_file;
+    std::ifstream in_file(std::to_string(name), std::fstream::binary);;
     S obj;
-    in_file.open(std::to_string(name), std::ios::in|std::ios::binary);
+    S data;
     if (!in_file.is_open()) {
       throw "no file";
+    }
+    while (std::getline(in_file,data)){
+      obj += data;
     }
     in_file.read((char*)&obj, sizeof(S));
     in_file.close();
@@ -42,12 +45,12 @@ class FileCacheManager : public CacheManager<P,S> {
   }
   void add_to_cache(P problem, S solution) override {
     unsigned long name = name_hash(problem);
-    std::fstream out_file(std::to_string(name));
-    out_file.open(std::to_string(name), std::ios::out|std::ios::binary);
+    std::ofstream out_file(std::to_string(name),std::fstream::binary);
     if (!out_file.is_open()) {
       throw "no file";
     }
-    out_file.write((char*)&solution, sizeof(S));
+    out_file<<solution;
+    //out_file.write((char*)&solution, sizeof(S));
     out_file.close();
   }
 };

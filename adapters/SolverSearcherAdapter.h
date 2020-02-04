@@ -19,7 +19,7 @@ class SolverSearcherAdapter: public server_side::Solver<MatrixProblem,StringSolu
   explicit SolverSearcherAdapter(Searcher<int> *searcher);
   StringSolution solve(MatrixProblem problem) override;
 
-  std::string path_to_string(Solution<std::list<State<int>>> solution);
+  static std::string path_to_string(std::list<State<int>*> solution,int size);
 };
 
 #endif //EX4_ADAPTERS_SOLVERSEARCHERADAPTER_H_

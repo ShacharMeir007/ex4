@@ -7,7 +7,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/shacharmeir/CLionProjects/ex4/AStar.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/AStar.cpp.o"
   "/Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/BestFirstSearch.cpp.o"
   "/Users/shacharmeir/CLionProjects/ex4/Heap.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/Heap.cpp.o"
-  "/Users/shacharmeir/CLionProjects/ex4/HeapSearcher.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/HeapSearcher.cpp.o"
   "/Users/shacharmeir/CLionProjects/ex4/Matrix.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/Matrix.cpp.o"
   "/Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblem.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/Problems/MatrixProblem.cpp.o"
   "/Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblemCreator.cpp" "/Users/shacharmeir/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/Problems/MatrixProblemCreator.cpp.o"

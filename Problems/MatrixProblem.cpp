@@ -24,7 +24,7 @@ std::string MatrixProblem::toString() {
   int size = matrix.GetN();
   for (int kI = 0; kI < size ; ++kI) {
     for (int kJ = 0; kJ < size; ++kJ) {
-      word+= matrix.getElement(kI,kJ);
+      word+= matrix.getElement(kI,kJ)->GetCost();
     }
   }
   word+= std::to_string(start_point.first);

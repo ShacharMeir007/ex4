@@ -98,12 +98,6 @@
 		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Heap.h">
 			<Option target="ex4"/>
 		</Unit>
-		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/HeapSearcher.cpp">
-			<Option target="ex4"/>
-		</Unit>
-		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/HeapSearcher.h">
-			<Option target="ex4"/>
-		</Unit>
 		<Unit filename="/Users/shacharmeir/CLionProjects/ex4/Matrix.cpp">
 			<Option target="ex4"/>
 		</Unit>

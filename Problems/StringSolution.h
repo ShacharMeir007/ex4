@@ -8,7 +8,8 @@
 #include <string>
 class StringSolution {
  public:
-  StringSolution(const std::string &solution);
+  explicit StringSolution(std::string& solution);
+  //StringSolution();
   std::string &GetSolution();
  private:
   std::string solution;

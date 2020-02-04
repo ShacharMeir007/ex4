@@ -29,7 +29,9 @@ void server_side::MyParallelServer::run(int port, ClientHandler *c) {
   //setting timeout
   timeval tv;
   tv.tv_sec = 10;
+  tv.tv_usec = 0;
   setsockopt(socketfd,SOL_SOCKET,SO_RCVTIMEO,(const char*)&tv, sizeof(tv));
+
   sockaddr_in address;
   address.sin_family = AF_INET;
   address.sin_addr.s_addr = INADDR_ANY;
@@ -40,7 +42,7 @@ void server_side::MyParallelServer::run(int port, ClientHandler *c) {
   }
 
 
-  if (listen(socketfd, 1) == -1) {
+  if (listen(socketfd, 10) == -1) {
     std::cerr << "Error during listening command" << std::endl;
     return;
   } else {
@@ -59,8 +61,6 @@ void server_side::MyParallelServer::run(int port, ClientHandler *c) {
     }
 
     this->client_threads.push(new std::thread(&ClientHandler::handle,c,client_socket));
-
-    //c->handle(client_socket);
 
   }
   close(socketfd);

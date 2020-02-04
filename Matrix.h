@@ -1,24 +1,27 @@
 //
-// Created by yonathank on 01/02/2020.
+// Created by shachar Meir on 03/02/2020.
 //
 
-#ifndef EX4_ALGORITHMS_MATRIX_H_
-#define EX4_ALGORITHMS_MATRIX_H_
+#ifndef TEST__MATRIX_H_
+#define TEST__MATRIX_H_
 
 #include "Searchable.h"
 
 class Matrix : public Searchable<int> {
-  double *matrix = nullptr;
+
+  State<int>** matrix = nullptr;
   int size, location = 0;
  public:
   virtual ~Matrix();
   int GetN() const;
-  double getElement(int i, int j);
+  State<int>* getElement(int i, int j);
   explicit Matrix(double* matrix,int size);
-  State<int> getInitialState() override;
-  bool isGoal(State<int> state) override;
-  std::list<State<int>> getAllPossibleStates(State<int> s) override;
+  State<int>* getInitialState() override;
+  void reset() override;
+  bool isGoal(State<int>* state) override;
+  std::list<State<int>*> getNeighborStates(State<int>* s) override;
   bool operator==(Matrix &m);
+  State<int> *getGoalState() override;
 };
 
-#endif //EX4_ALGORITHMS_MATRIX_H_
+#endif //TEST__MATRIX_H_
