@@ -72,7 +72,9 @@ CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o
  /Users/shacharmeir/CLionProjects/ex4/server_side/Solver.h
 CMakeFiles/ex4.dir/main.cpp.o
  /Users/shacharmeir/CLionProjects/ex4/AStar.h
+ /Users/shacharmeir/CLionProjects/ex4/BFS.h
  /Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.h
+ /Users/shacharmeir/CLionProjects/ex4/DFS.h
  /Users/shacharmeir/CLionProjects/ex4/Heap.h
  /Users/shacharmeir/CLionProjects/ex4/Matrix.h
  /Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblem.h
@@ -110,7 +112,9 @@ CMakeFiles/ex4.dir/server_side/FileCacheManager.cpp.o
  /Users/shacharmeir/CLionProjects/ex4/server_side/FileCacheManager.h
 CMakeFiles/ex4.dir/server_side/Main.cpp.o
  /Users/shacharmeir/CLionProjects/ex4/AStar.h
+ /Users/shacharmeir/CLionProjects/ex4/BFS.h
  /Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.h
+ /Users/shacharmeir/CLionProjects/ex4/DFS.h
  /Users/shacharmeir/CLionProjects/ex4/Heap.h
  /Users/shacharmeir/CLionProjects/ex4/Matrix.h
  /Users/shacharmeir/CLionProjects/ex4/Problems/MatrixProblem.h

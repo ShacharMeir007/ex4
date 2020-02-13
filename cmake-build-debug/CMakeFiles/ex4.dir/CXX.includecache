@@ -20,6 +20,14 @@ Heap.h
 StatePointerComparator.h
 /Users/shacharmeir/CLionProjects/ex4/StatePointerComparator.h
 
+/Users/shacharmeir/CLionProjects/ex4/BFS.h
+queue
+-
+Searcher.h
+/Users/shacharmeir/CLionProjects/ex4/Searcher.h
+Heap.h
+/Users/shacharmeir/CLionProjects/ex4/Heap.h
+
 /Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.h
 queue
 -
@@ -29,6 +37,16 @@ Heap.h
 /Users/shacharmeir/CLionProjects/ex4/Heap.h
 StateComparator.h
 /Users/shacharmeir/CLionProjects/ex4/StateComparator.h
+
+/Users/shacharmeir/CLionProjects/ex4/DFS.h
+queue
+-
+stack
+-
+set
+-
+Searcher.h
+/Users/shacharmeir/CLionProjects/ex4/Searcher.h
 
 /Users/shacharmeir/CLionProjects/ex4/Heap.h
 algorithm
@@ -104,10 +122,6 @@ string
 vector
 -
 
-/Users/shacharmeir/CLionProjects/ex4/adapters/SolverSearcherAdapter.cpp
-SolverSearcherAdapter.h
-/Users/shacharmeir/CLionProjects/ex4/adapters/SolverSearcherAdapter.h
-
 /Users/shacharmeir/CLionProjects/ex4/adapters/SolverSearcherAdapter.h
 ../Matrix.h
 /Users/shacharmeir/CLionProjects/ex4/Matrix.h
@@ -124,14 +138,6 @@ SolverSearcherAdapter.h
 ../Searcher.h
 /Users/shacharmeir/CLionProjects/ex4/Searcher.h
 
-/Users/shacharmeir/CLionProjects/ex4/main.cpp
-iostream
--
-server_side/Server.h
-/Users/shacharmeir/CLionProjects/ex4/server_side/Server.h
-server_side/Main.h
-/Users/shacharmeir/CLionProjects/ex4/server_side/Main.h
-
 /Users/shacharmeir/CLionProjects/ex4/server_side/CacheManager.h
 
 /Users/shacharmeir/CLionProjects/ex4/server_side/ClientHandler.h
@@ -139,10 +145,6 @@ string
 -
 CacheManager.h
 /Users/shacharmeir/CLionProjects/ex4/server_side/CacheManager.h
-
-/Users/shacharmeir/CLionProjects/ex4/server_side/FileCacheManager.cpp
-FileCacheManager.h
-/Users/shacharmeir/CLionProjects/ex4/server_side/FileCacheManager.h
 
 /Users/shacharmeir/CLionProjects/ex4/server_side/FileCacheManager.h
 CacheManager.h
@@ -185,6 +187,10 @@ MyTestClientHandler.h
 /Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.h
 ../AStar.h
 /Users/shacharmeir/CLionProjects/ex4/AStar.h
+../BFS.h
+/Users/shacharmeir/CLionProjects/ex4/BFS.h
+../DFS.h
+/Users/shacharmeir/CLionProjects/ex4/DFS.h
 
 /Users/shacharmeir/CLionProjects/ex4/server_side/MyParallelServer.h
 Server.h
@@ -215,10 +221,6 @@ unistd.h
 -
 thread
 -
-
-/Users/shacharmeir/CLionProjects/ex4/server_side/MyTestClientHandler.cpp
-MyTestClientHandler.h
-/Users/shacharmeir/CLionProjects/ex4/server_side/MyTestClientHandler.h
 
 /Users/shacharmeir/CLionProjects/ex4/server_side/MyTestClientHandler.h
 ClientHandler.h

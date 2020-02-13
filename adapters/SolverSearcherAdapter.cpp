@@ -15,7 +15,7 @@ StringSolution SolverSearcherAdapter::solve(MatrixProblem problem){
     std::cerr<<"could not load from file"<<std::endl;
   }
 
-  std::list<State<int>*> path = this->searcher_->search(&problem.GetMatrix());
+  std::list<State<int>*> path = this->searcher_->search(&problem);
   std::string s = path_to_string(path, problem.GetMatrix().GetN());
   cache.add_to_cache(problem, s);
   StringSolution solution(s);

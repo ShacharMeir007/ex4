@@ -7,9 +7,14 @@
 #include <string>
 #include "../Matrix.h"
 
-class MatrixProblem {
+class MatrixProblem: public Searchable<int> {
  public:
   MatrixProblem(Matrix &matrix, std::pair<int, int> &start_point, std::pair<int, int> &end_point);
+  State<int> *getInitialState() override;
+  State<int> *getGoalState() override;
+  bool isGoal(State<int> *state) override;
+  std::list<State<int> *> getNeighborStates(State<int> *state) override;
+  void reset() override;
   Matrix &GetMatrix();
   std::pair<int, int> &GetStartPoint();
   std::pair<int, int> &GetEndPoint();

@@ -16,6 +16,8 @@
 #include "../Problems/StringSolution.h"
 #include "../BestFirstSearch.h"
 #include "../AStar.h"
+#include "../BFS.h"
+#include "../DFS.h"
 namespace server_side {
 class Main {
  public:

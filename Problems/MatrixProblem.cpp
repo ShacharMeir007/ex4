@@ -33,3 +33,29 @@ std::string MatrixProblem::toString() {
   word+= std::to_string(end_point.second);
   return word ;
 }
+
+State<int> *MatrixProblem::getInitialState() {
+  return this->matrix.getElement(start_point.first,start_point.second);
+}
+State<int> *MatrixProblem::getGoalState() {
+  return this->matrix.getElement(end_point.first,end_point.second);
+}
+bool MatrixProblem::isGoal(State<int> *state) {
+  return *state == *this->getGoalState();
+}
+std::list<State<int> *> MatrixProblem::getNeighborStates(State<int> *state) {
+  return this->matrix.getNeighborStates(state);
+}
+void MatrixProblem::reset() {
+  int size = this->matrix.GetN();
+  for (int kI = 0; kI < size; ++kI) {
+    for (int kJ = 0; kJ < size; ++kJ) {
+      State<int>* s =this->matrix.getElement(kI,kJ);
+      s->SetCameFrom(nullptr);
+      s->SetShortestPathCost(-1);
+    }
+  }
+  State<int>* start = this->getInitialState();
+  start->SetCameFrom(start);
+  start->SetShortestPathCost(0);
+}

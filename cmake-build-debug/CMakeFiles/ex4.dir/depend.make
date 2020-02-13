@@ -71,7 +71,9 @@ CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o: ../server_side/FileCach
 CMakeFiles/ex4.dir/adapters/SolverSearcherAdapter.cpp.o: ../server_side/Solver.h
 
 CMakeFiles/ex4.dir/main.cpp.o: ../AStar.h
+CMakeFiles/ex4.dir/main.cpp.o: ../BFS.h
 CMakeFiles/ex4.dir/main.cpp.o: ../BestFirstSearch.h
+CMakeFiles/ex4.dir/main.cpp.o: ../DFS.h
 CMakeFiles/ex4.dir/main.cpp.o: ../Heap.h
 CMakeFiles/ex4.dir/main.cpp.o: ../Matrix.h
 CMakeFiles/ex4.dir/main.cpp.o: ../Problems/MatrixProblem.h
@@ -109,7 +111,9 @@ CMakeFiles/ex4.dir/server_side/FileCacheManager.cpp.o: ../server_side/FileCacheM
 CMakeFiles/ex4.dir/server_side/FileCacheManager.cpp.o: ../server_side/FileCacheManager.h
 
 CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../AStar.h
+CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../BFS.h
 CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../BestFirstSearch.h
+CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../DFS.h
 CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../Heap.h
 CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../Matrix.h
 CMakeFiles/ex4.dir/server_side/Main.cpp.o: ../Problems/MatrixProblem.h
