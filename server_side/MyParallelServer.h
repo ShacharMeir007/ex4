@@ -21,6 +21,7 @@ class MyParallelServer: public Server {
   void run(int port,ClientHandler* c);
   void open(int port,ClientHandler* c) override;
   void stop() override;
+  virtual ~MyParallelServer();
 };
 }
 #endif //EX4_SERVER_SIDE_MYPARALLELSERVER_H_

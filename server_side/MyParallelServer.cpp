@@ -7,9 +7,6 @@
 // Created by shachar Meir on 18/01/2020.
 //
 
-
-
-#include "MySerialServer.h"
 void server_side::MyParallelServer::stop() {
   this->close_ = true;
 }
@@ -64,6 +61,9 @@ void server_side::MyParallelServer::run(int port, ClientHandler *c) {
 
   }
   close(socketfd);
+}
+server_side::MyParallelServer::~MyParallelServer() {
+
 }
 
 

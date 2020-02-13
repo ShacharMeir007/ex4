@@ -8,8 +8,8 @@
 template <typename T>
 class StateComparator {
  public:
-  int operator() (const State<T>& state1,const State<T>& state2){
-    return state1.GetCost()> state2.GetCost();
+  int operator() (State<T>*& state1,State<T>*& state2){
+    return state1->GetCost()> state2->GetCost();
   }
 };
 

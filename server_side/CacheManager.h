@@ -11,6 +11,9 @@ class CacheManager {
  public:
   virtual bool is_in_cache(P) = 0;
   virtual S pull_from_cache(P) = 0;
+  virtual ~CacheManager() {
+
+  }
   virtual void add_to_cache(P,S) = 0;
 
 };

@@ -54,3 +54,4 @@ std::string SolverSearcherAdapter::path_to_string(std::list<State<int>*> path,in
   return data;
 }
 SolverSearcherAdapter::SolverSearcherAdapter(Searcher<int> *searcher) : searcher_(searcher) {}
+SolverSearcherAdapter::~SolverSearcherAdapter() = default;

@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/shacharmeir/CLionProjects/ex4/AStar.cpp
+AStar.h
+/Users/shacharmeir/CLionProjects/ex4/AStar.h
+
 /Users/shacharmeir/CLionProjects/ex4/AStar.h
 set
 -
@@ -27,6 +31,10 @@ Searcher.h
 /Users/shacharmeir/CLionProjects/ex4/Searcher.h
 Heap.h
 /Users/shacharmeir/CLionProjects/ex4/Heap.h
+
+/Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.cpp
+BestFirstSearch.h
+/Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.h
 
 /Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.h
 queue
@@ -137,6 +145,14 @@ vector
 /Users/shacharmeir/CLionProjects/ex4/server_side/FileCacheManager.h
 ../Searcher.h
 /Users/shacharmeir/CLionProjects/ex4/Searcher.h
+
+/Users/shacharmeir/CLionProjects/ex4/main.cpp
+iostream
+-
+server_side/Server.h
+/Users/shacharmeir/CLionProjects/ex4/server_side/Server.h
+server_side/Main.h
+/Users/shacharmeir/CLionProjects/ex4/server_side/Main.h
 
 /Users/shacharmeir/CLionProjects/ex4/server_side/CacheManager.h
 

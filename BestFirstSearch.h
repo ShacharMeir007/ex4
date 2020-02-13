@@ -13,11 +13,11 @@ class BestFirstSearch: public Searcher<T> {
  public:
   std::list<State<T> *> search(Searchable<T> *searchable) override {
     searchable->reset();
-    std::priority_queue <State<T>, std::vector<State<T>>, StateComparator<T>>min_heap;
+    std::priority_queue <State<T>*, std::vector<State<T>*>, StateComparator<T>>min_heap;
     State<T>* start = searchable->getInitialState();
-    min_heap.push(*start);
+    min_heap.push(start);
     while (!min_heap.empty()){
-      State<T>* next = new State<T>(min_heap.top());
+      State<T>* next = min_heap.top();
       min_heap.pop();
       if (searchable->isGoal(next)){
         auto path = this->backTracePath(next);
@@ -28,7 +28,7 @@ class BestFirstSearch: public Searcher<T> {
       for (State<T>* neighbor: neighbors){
         if (neighbor->GetCameFrom() == nullptr){
           neighbor->SetCameFrom(next);
-          min_heap.push(*neighbor);
+          min_heap.push(neighbor);
         }
         if (searchable->isGoal(neighbor)){
           auto path = this->backTracePath(neighbor);

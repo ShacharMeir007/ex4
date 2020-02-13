@@ -10,7 +10,7 @@
 class Matrix : public Searchable<int> {
 
   State<int>** matrix = nullptr;
-  int size, location = 0;
+  int size;
  public:
   virtual ~Matrix();
   int GetN() const;

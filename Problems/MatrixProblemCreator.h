@@ -12,6 +12,7 @@
 class MatrixProblemCreator: public ProblemCreator<MatrixProblem, std::string> {
  public:
   MatrixProblem createProblem(std::string &data) override;
+  virtual ~MatrixProblemCreator();
 };
 
 #endif //EX4_PROBLEMS_MATRIXPROBLEMCREATOR_H_

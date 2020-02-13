@@ -91,31 +91,31 @@ std::list<State<int>*> Matrix::getNeighborStates(State<int>* s)  {
     }
   }
   /*if (s.GetState() % size != size - 1) {
-    State<int> state = State<int>(s.GetState() + 1);
-    state.SetCost(matrix[s.GetState() + 1]);
-    if (state.GetCost() != -1){
-      list.push_back(state);
+    State<int> state_ = State<int>(s.GetState() + 1);
+    state_.SetCost(matrix[s.GetState() + 1]);
+    if (state_.GetCost() != -1){
+      list.push_back(state_);
     }
   }
   if (s.GetState() % size != 0) {
-    State<int> state = State<int>(s.GetState() - 1);
-    state.SetCost(matrix[s.GetState() - 1]);
-    if (state.GetCost() != -1){
-      list.push_back(state);
+    State<int> state_ = State<int>(s.GetState() - 1);
+    state_.SetCost(matrix[s.GetState() - 1]);
+    if (state_.GetCost() != -1){
+      list.push_back(state_);
     }
   }
   if (s.GetState() / size != 0) {
-    State<int> state = State<int>(s.GetState() - size);
-    state.SetCost(matrix[s.GetState() - size]);
-    if (state.GetCost() != -1){
-      list.push_back(state);
+    State<int> state_ = State<int>(s.GetState() - size);
+    state_.SetCost(matrix[s.GetState() - size]);
+    if (state_.GetCost() != -1){
+      list.push_back(state_);
     }
   }
   if (s.GetState() / size != size - 1) {
-    State<int> state = State<int>(s.GetState() + size);
-    state.SetCost(matrix[s.GetState() + size]);
-    if (state.GetCost() != -1){
-      list.push_back(state);
+    State<int> state_ = State<int>(s.GetState() + size);
+    state_.SetCost(matrix[s.GetState() + size]);
+    if (state_.GetCost() != -1){
+      list.push_back(state_);
     }
   }*/
   return list;

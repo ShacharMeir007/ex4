@@ -23,6 +23,9 @@ class Searcher {
     path.push_front(handle);
     return path;
   }
+  virtual ~Searcher() {
+
+  }
 };
 
 #endif //TEST__SEARCHER_H_

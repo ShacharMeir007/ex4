@@ -4,3 +4,6 @@
 
 #include "Server.h"
 
+server_side::Server::~Server() {
+
+}

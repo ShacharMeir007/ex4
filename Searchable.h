@@ -15,6 +15,7 @@ class Searchable {
   virtual bool isGoal(State<T>* state) = 0;
   virtual std::list<State<T>*> getNeighborStates(State<T>* state) = 0;
   virtual void reset() = 0;
+  virtual ~Searchable() = default;
 };
 
 #endif //TEST__SEARCHABLE_H_

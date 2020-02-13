@@ -59,3 +59,6 @@ void MatrixProblem::reset() {
   start->SetCameFrom(start);
   start->SetShortestPathCost(0);
 }
+MatrixProblem::~MatrixProblem() {
+
+}

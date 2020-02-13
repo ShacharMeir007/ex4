@@ -61,5 +61,8 @@ void server_side::MySerialServer::run(int port, ClientHandler *c) {
   }
   close(socketfd);
 }
+server_side::MySerialServer::~MySerialServer() {
+
+}
 
 

@@ -60,6 +60,9 @@ class AStar: public Searcher<T> {
   int getNumberOfNodesEvaluated() override {
     return 0;
   }
+  virtual ~AStar() {
+
+  }
 
 };
 

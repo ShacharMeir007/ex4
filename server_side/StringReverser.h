@@ -9,6 +9,8 @@
 namespace server_side {
 class StringReverser: public Solver<std::string,std::string> {
   std::string solve(std::string problem) override;
+ public:
+  virtual ~StringReverser();
 };
 }
 #endif //EX4_SERVER_SIDE_STRINGREVERSER_H_

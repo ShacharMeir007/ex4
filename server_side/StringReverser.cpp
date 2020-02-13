@@ -11,3 +11,6 @@ std::string server_side::StringReverser::solve(std::string problem) {
   }
   return result;
 }
+server_side::StringReverser::~StringReverser() {
+
+}

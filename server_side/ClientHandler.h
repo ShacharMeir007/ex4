@@ -12,6 +12,7 @@ class ClientHandler{
  public:
 
   virtual void handle(int client) = 0;
+  virtual ~ClientHandler();
 
  protected:
 

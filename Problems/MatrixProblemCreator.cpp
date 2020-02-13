@@ -29,3 +29,6 @@ MatrixProblem MatrixProblemCreator::createProblem(std::string &data) {
   MatrixProblem matrix_problem(matrix1,start, end);
   return matrix_problem;
 }
+MatrixProblemCreator::~MatrixProblemCreator() {
+
+}

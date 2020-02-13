@@ -6,16 +6,16 @@
 #define TEST__STATE_H_
 template<typename T>
 class State {
-  T state;
+  T state_;
   double cost = 0;
   double shortest_path_cost = -1;
   State *parent = nullptr;
  public:
   double GetShortestPathCost() const;
-  void SetShortestPathCost(double shortest_path_cost);
+  void SetShortestPathCost(double path_cost);
  public:
-  explicit State(T state) {this->state = state;};
-  bool operator==(const State &s) const {return this->state == s.state;};
+  explicit State(T state) {this->state_ = state;};
+  bool operator==(const State &s) const {return this->state_ == s.state_;};
   bool operator>(const State &s) const {return this->cost > s.GetCost();};
   bool operator<(const State &s) const {return this->cost < s.GetCost();};
   double GetCost() const { return this->cost;};
@@ -36,15 +36,15 @@ void State<T>::SetCameFrom(State *came_from) {
 }
 template<typename T>
 T State<T>::GetState() {
-  return state;
+  return state_;
 }
 template<typename T>
 double State<T>::GetShortestPathCost() const {
   return shortest_path_cost;
 }
 template<typename T>
-void State<T>::SetShortestPathCost(double shortest_path_cost) {
-  State::shortest_path_cost = shortest_path_cost;
+void State<T>::SetShortestPathCost(double path_cost) {
+  State::shortest_path_cost = path_cost;
 }
 template<typename T>
 State<T>::State() = default;

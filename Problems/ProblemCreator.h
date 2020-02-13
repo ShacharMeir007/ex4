@@ -8,6 +8,9 @@ template <typename P,typename Data>
 class ProblemCreator {
  public:
   virtual P createProblem(Data& data) = 0;
+  virtual ~ProblemCreator() {
+
+  }
 };
 
 #endif //EX4_PROBLEMS_PROBLEMCREATOR_H_

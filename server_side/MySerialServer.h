@@ -19,6 +19,7 @@ class MySerialServer : public Server {
   void run(int port,ClientHandler* c);
   void open(int port,ClientHandler* c) override;
   void stop() override;
+  virtual ~MySerialServer();
 
 };
 

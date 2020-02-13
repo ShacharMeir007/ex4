@@ -41,7 +41,7 @@ void MyTestClientHandler<P, S>::handle(int client_socket) {
     for (char & kI : buffer) {
       kI = 0;
     }
-    int val_read = read(client_socket, buffer, 1024);
+    read(client_socket, buffer, 1024);
 
     if (recv(client_socket, buffer, sizeof(buffer), MSG_PEEK | MSG_DONTWAIT) == 0){
       std::cout<<"err"<<std::endl;

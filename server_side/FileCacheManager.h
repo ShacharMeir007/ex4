@@ -53,6 +53,9 @@ class FileCacheManager : public CacheManager<P,S> {
     //out_file.write((char*)&solution, sizeof(S));
     out_file.close();
   }
+  virtual ~FileCacheManager() {
+
+  }
 };
 }
 #endif //EX4_SERVER_SIDE_FILECACHEMANAGER_H_

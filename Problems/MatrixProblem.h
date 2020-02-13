@@ -10,6 +10,7 @@
 class MatrixProblem: public Searchable<int> {
  public:
   MatrixProblem(Matrix &matrix, std::pair<int, int> &start_point, std::pair<int, int> &end_point);
+  virtual ~MatrixProblem();
   State<int> *getInitialState() override;
   State<int> *getGoalState() override;
   bool isGoal(State<int> *state) override;

@@ -144,7 +144,6 @@ CMakeFiles/ex4.dir/server_side/MyParallelServer.cpp.o: ../server_side/CacheManag
 CMakeFiles/ex4.dir/server_side/MyParallelServer.cpp.o: ../server_side/ClientHandler.h
 CMakeFiles/ex4.dir/server_side/MyParallelServer.cpp.o: ../server_side/MyParallelServer.cpp
 CMakeFiles/ex4.dir/server_side/MyParallelServer.cpp.o: ../server_side/MyParallelServer.h
-CMakeFiles/ex4.dir/server_side/MyParallelServer.cpp.o: ../server_side/MySerialServer.h
 CMakeFiles/ex4.dir/server_side/MyParallelServer.cpp.o: ../server_side/Server.h
 
 CMakeFiles/ex4.dir/server_side/MySerialServer.cpp.o: ../server_side/CacheManager.h
