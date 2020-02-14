@@ -18,6 +18,7 @@ CMakeFiles/ex4.dir/BestFirstSearch.cpp.o
  /Users/shacharmeir/CLionProjects/ex4/Searcher.h
  /Users/shacharmeir/CLionProjects/ex4/State.h
  /Users/shacharmeir/CLionProjects/ex4/StateComparator.h
+ /Users/shacharmeir/CLionProjects/ex4/StatePointerComparator.h
 CMakeFiles/ex4.dir/Heap.cpp.o
  /Users/shacharmeir/CLionProjects/ex4/Heap.cpp
  /Users/shacharmeir/CLionProjects/ex4/Heap.h

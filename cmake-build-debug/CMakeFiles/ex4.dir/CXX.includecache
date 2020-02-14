@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/shacharmeir/CLionProjects/ex4/AStar.cpp
-AStar.h
-/Users/shacharmeir/CLionProjects/ex4/AStar.h
-
 /Users/shacharmeir/CLionProjects/ex4/AStar.h
 set
 -
@@ -39,12 +35,16 @@ BestFirstSearch.h
 /Users/shacharmeir/CLionProjects/ex4/BestFirstSearch.h
 queue
 -
+set
+-
 Searcher.h
 /Users/shacharmeir/CLionProjects/ex4/Searcher.h
 Heap.h
 /Users/shacharmeir/CLionProjects/ex4/Heap.h
 StateComparator.h
 /Users/shacharmeir/CLionProjects/ex4/StateComparator.h
+StatePointerComparator.h
+/Users/shacharmeir/CLionProjects/ex4/StatePointerComparator.h
 
 /Users/shacharmeir/CLionProjects/ex4/DFS.h
 queue

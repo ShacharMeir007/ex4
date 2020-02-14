@@ -25,6 +25,9 @@ std::string SolverSearcherAdapter::path_to_string(std::list<State<int>*> path,in
   std::string data;
   int cost = 0;
   State<int>* first = path.front();
+  if (first == nullptr){
+    return "";
+  }
   cost += first->GetCost();
   path.pop_front();
   State<int>* second;

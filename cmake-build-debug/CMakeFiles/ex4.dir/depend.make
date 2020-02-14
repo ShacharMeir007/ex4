@@ -17,6 +17,7 @@ CMakeFiles/ex4.dir/BestFirstSearch.cpp.o: ../Searchable.h
 CMakeFiles/ex4.dir/BestFirstSearch.cpp.o: ../Searcher.h
 CMakeFiles/ex4.dir/BestFirstSearch.cpp.o: ../State.h
 CMakeFiles/ex4.dir/BestFirstSearch.cpp.o: ../StateComparator.h
+CMakeFiles/ex4.dir/BestFirstSearch.cpp.o: ../StatePointerComparator.h
 
 CMakeFiles/ex4.dir/Heap.cpp.o: ../Heap.cpp
 CMakeFiles/ex4.dir/Heap.cpp.o: ../Heap.h
